@@ -1,0 +1,1526 @@
+OrderID,OrderDate,CustomerName,Region,ProductCategory,Revenue,Quantity,Status
+ORD-01255,18-08-2024,Gaurav Mishra,South,Furniture,0,3,Returned
+ORD-01314,23-10-2023,Aakash Bhat,South,Furniture,5911.62,6,Active
+ORD-01042,29-08-2023,Rajesh Choudhury,South,Office Supplies,899.44,20,Active
+ORD-01709,08-01-2023,Ajay Rastogi,North,Office Supplies,74.82,21,Active
+ORD-01484,04-11-2024,Divya Kaur,North,Office Supplies,1110.91,7,Active
+ORD-01443,10-04-2024,Geeta Pandey,West,Electronics,0,1,Cancelled
+ORD-02004,22-08-2023,Sneha Gupta,East,Furniture,15696.99,7,Active
+ORD-01927,19-12-2023,Arjun Reddy,South,Office Supplies,3453.15,13,Active
+ORD-01948,25-04-2023,Tarun Mukerjee,East,Office Supplies,2599.44,22,Active
+ORD-02297,11-12-2024,Kavya Nair,North,Electronics,41424.92,4,Active
+ORD-01563,06-12-2024,Arjun Reddy,South,Furniture,1178.82,4,Active
+ORD-01346,11-07-2024,Kiran Nambiar,West,Electronics,11740.03,3,Active
+ORD-01543,07-08-2024,Asha Kulkarni,South,Office Supplies,3440.5,5,Active
+ORD-01087,29-08-2024,Ajay Rastogi,North,Electronics,29209.53,2,Active
+ORD-02232,08-03-2024,Varun Naik,North,Electronics,37997.99,3,Active
+ORD-02275,26-11-2023,Gaurav Mishra,South,Office Supplies,0,30,Cancelled
+ORD-01657,21-06-2023,Dev Mathur,East,Office Supplies,275.88,22,Active
+ORD-02352,30-07-2023,Vivek Chopra,West,Office Supplies,2343.53,6,Active
+ORD-02307,01-09-2023,Varun Naik,North,Office Supplies,3012.52,14,Active
+ORD-02397,09-04-2024,Tara Saxena,East,Office Supplies,1708.91,11,Active
+ORD-02504,15-03-2024,Nikhil Desai,North,Furniture,0,0,Active
+ORD-01920,03-08-2024,Gaurav Mishra,South,Electronics,0,1,Cancelled
+ORD-02326,21-05-2024,Manish Srivastava,East,Furniture,11594.47,1,Active
+ORD-02049,08-02-2024,Neha Tiwari,North,Office Supplies,0,2,Cancelled
+ORD-01946,01-10-2024,Rohan Mehta,South,Electronics,6405.5,1,Active
+ORD-02339,19-07-2024,Bhavna Dubey,South,Furniture,6329.67,2,Active
+ORD-01457,30-03-2023,Sneha Gupta,East,Electronics,26859.17,4,Active
+ORD-02493,29-06-2023,Kavya Nair,North,Electronics,23504.85,1,Active
+ORD-01752,02-04-2024,Arjun Reddy,South,Furniture,8508.41,3,Active
+ORD-01916,17-10-2023,Smita Patil,East,Electronics,0,4,Cancelled
+ORD-01354,29-06-2023,Kiran Nambiar,West,Electronics,43775.23,4,Active
+ORD-01603,20-04-2024,Vikram Singh,West,Electronics,39437.01,3,Active
+ORD-01945,15-08-2024,Deepa Pillai,East,Office Supplies,0,26,Cancelled
+ORD-01258,14-11-2023,Varun Naik,North,Office Supplies,0,2,Returned
+ORD-01142,17-10-2023,Vivek Chopra,West,Office Supplies,3496.21,16,Active
+ORD-01695,07-09-2023,Priya Patel,East,Office Supplies,605.9,21,Active
+ORD-01190,01-06-2024,Tarun Mukerjee,East,Office Supplies,444.73,21,Active
+ORD-02449,15-07-2024,Rajesh Choudhury,South,Furniture,0,1,Cancelled
+ORD-01930,20-12-2024,Nidhi Bhatt,South,Furniture,12898.39,7,Active
+ORD-01644,10-10-2024,Harsh Shah,West,Office Supplies,0,7,Returned
+ORD-01195,25-02-2024,Smita Patil,East,Furniture,15665.23,1,Active
+ORD-02259,25-01-2023,Asha Kulkarni,South,Furniture,1911.14,2,Active
+ORD-02310,02-08-2024,Gaurav Mishra,South,Furniture,6116.56,2,Active
+ORD-02354,26-07-2023,Ananya Sharma,North,Furniture,1432.27,7,Active
+ORD-02455,04-02-2023,Rahul Verma,West,Furniture,5657.61,3,Active
+ORD-01060,25-01-2023,Neha Tiwari,North,Furniture,15599.05,5,Active
+ORD-02344,24-01-2023,Ajay Rastogi,North,Electronics,7593.15,3,Active
+ORD-01900,14-07-2023,Gaurav Mishra,South,Office Supplies,0,10,Returned
+ORD-01940,14-10-2023,Bhavna Dubey,South,Office Supplies,3120.21,3,Active
+ORD-02426,30-11-2023,Yash Agarwal,North,Furniture,7382.92,2,Active
+ORD-01242,23-03-2024,Arjun Reddy,South,Electronics,36898.28,3,Active
+ORD-02411,12-11-2023,Ananya Sharma,North,Furniture,0,2,Returned
+ORD-01754,23-03-2023,Deepa Pillai,East,Furniture,0,5,Cancelled
+ORD-01866,07-05-2023,Arjun Reddy,South,Furniture,11523.08,2,Active
+ORD-01501,09-02-2024,Geeta Pandey,West,Electronics,16444.29,2,Active
+ORD-02249,01-05-2024,Tarun Mukerjee,East,Electronics,0,4,Returned
+ORD-01030,11-03-2023,Priya Patel,East,Electronics,0,3,Cancelled
+ORD-01499,08-03-2023,Neha Tiwari,North,Furniture,14624.59,2,Active
+ORD-02103,26-04-2024,Manish Srivastava,East,Electronics,23195.48,4,Active
+ORD-01395,08-08-2024,Asha Kulkarni,South,Furniture,3300.18,5,Active
+ORD-02208,20-11-2024,Harsh Shah,West,Electronics,0,3,Cancelled
+ORD-02333,13-07-2024,Arjun Reddy,South,Electronics,5149.68,1,Active
+ORD-02033,23-01-2023,Riya Malhotra,East,Office Supplies,2274.12,14,Active
+ORD-01410,11-01-2023,Sneha Gupta,East,Office Supplies,2626.64,18,Active
+ORD-01426,12-10-2024,Dev Mathur,East,Office Supplies,3260.9,6,Active
+ORD-02068,27-12-2023,Amit Kumar,East,Furniture,14084.9,7,Active
+ORD-01855,18-11-2024,Neha Tiwari,North,Electronics,8626.86,4,Active
+ORD-02226,18-11-2023,Smita Patil,East,Office Supplies,0,5,Cancelled
+ORD-01882,06-12-2024,Tarun Mukerjee,East,Office Supplies,1040.8,20,Active
+ORD-01568,11-02-2024,Nidhi Bhatt,South,Office Supplies,3498.03,27,Active
+ORD-01001,16-10-2024,Rahul Verma,East,Electronics,0,1,Cancelled
+ORD-01992,17-01-2023,Geeta Pandey,West,Electronics,0,1,Cancelled
+ORD-02459,07-04-2023,Nidhi Bhatt,South,Furniture,17999.19,7,Active
+ORD-02349,30-07-2023,Riya Malhotra,East,Office Supplies,291.43,2,Active
+ORD-01347,10-10-2023,Neha Tiwari,North,Office Supplies,2690.94,2,Active
+ORD-01625,19-05-2024,Pooja Iyer,North,Office Supplies,2539.38,4,Active
+ORD-01194,23-07-2024,Vikram Singh,West,Office Supplies,1987.81,22,Active
+ORD-02010,18-09-2024,Deepa Pillai,East,Office Supplies,2999.76,3,Active
+ORD-01473,20-06-2024,Kavya Nair,North,Office Supplies,2214.99,16,Active
+ORD-02418,04-03-2023,Nikhil Desai,South,Electronics,30207.24,1,Active
+ORD-01486,14-10-2023,Arjun Reddy,South,Office Supplies,1475.05,29,Active
+ORD-01664,24-03-2024,Divya Kaur,North,Office Supplies,156.33,6,Active
+ORD-01051,11-10-2024,Kiran Nambiar,West,Electronics,956.72,2,Active
+ORD-02196,12-07-2023,Rohan Mehta,South,Office Supplies,550.78,8,Active
+ORD-01844,06-06-2023,Kiran Nambiar,West,Office Supplies,1186.03,18,Active
+ORD-01847,01-08-2024,Deepa Pillai,East,Office Supplies,1888.72,24,Active
+ORD-01904,17-02-2023,Sneha Gupta,East,Office Supplies,2622.16,1,Active
+ORD-01121,18-03-2023,Deepa Pillai,West,Office Supplies,2098.65,10,Active
+ORD-01935,13-12-2024,Tarun Mukerjee,East,Office Supplies,670.3,17,Active
+ORD-02003,05-03-2024,Neha Tiwari,North,Furniture,4372.12,2,Active
+ORD-01405,20-11-2024,Geeta Pandey,West,Furniture,0,3,Cancelled
+ORD-02317,26-09-2023,Sneha Gupta,South,Furniture,11891.18,2,Active
+ORD-01074,14-12-2024,Divya Kaur,North,Electronics,0,1,Returned
+ORD-02461,20-02-2024,Rohan Mehta,South,Office Supplies,2752.99,17,Active
+ORD-01934,23-03-2024,Pooja Iyer,North,Office Supplies,2830.5,28,Active
+ORD-01938,13-07-2024,Ajay Rastogi,North,Electronics,25912.21,3,Active
+ORD-01833,15-11-2024,Rohan Mehta,South,Office Supplies,1867.46,9,Active
+ORD-01979,09-10-2024,Yash Agarwal,North,Electronics,0,1,Cancelled
+ORD-01586,24-07-2023,Harsh Shah,West,Furniture,13696.2,4,Active
+ORD-01493,11-06-2023,Vivek Chopra,West,Office Supplies,2131.39,7,Active
+ORD-01769,18-01-2024,Neha Tiwari,North,Office Supplies,1558.02,8,Active
+ORD-01180,01-08-2024,Aakash Bhat,South,Office Supplies,795.03,28,Active
+ORD-01014,19-11-2023,Aakash Bhat,South,Furniture,15958.89,8,Active
+ORD-02054,01-05-2024,Asha Kulkarni,South,Electronics,0,5,Returned
+ORD-02015,05-05-2024,Sneha Gupta,East,Electronics,0,1,Cancelled
+ORD-01893,03-11-2023,Ajay Rastogi,North,Furniture,10126.64,1,Active
+ORD-01249,06-03-2023,Rahul Verma,West,Furniture,10862.28,1,Active
+ORD-01137,12-06-2023,Vivek Chopra,West,Office Supplies,1457.57,8,Active
+ORD-01073,01-05-2024,Sarita Bansal,West,Electronics,20929.39,5,Active
+ORD-02314,31-01-2023,Padma Subramaniam,West,Furniture,8095.22,6,Active
+ORD-02315,31-01-2023,Neha Tiwari,North,Electronics,0,3,Cancelled
+ORD-01721,23-06-2023,Priya Patel,East,Office Supplies,50.99,6,Active
+ORD-01327,21-09-2023,Sanjay Joshi,East,Furniture,10349.73,4,Active
+ORD-01985,19-12-2024,Pooja Iyer,North,Furniture,14827.08,2,Active
+ORD-01269,20-03-2023,Ajay Rastogi,North,Furniture,7345.2,5,Active
+ORD-02055,20-01-2024,Arjun Reddy,East,Furniture,0,8,Cancelled
+ORD-01577,07-07-2023,Gaurav Mishra,South,Electronics,16503.53,3,Active
+ORD-01285,12-02-2023,Rohan Mehta,South,Office Supplies,2710.03,9,Active
+ORD-02433,21-09-2023,Manish Srivastava,East,Office Supplies,474.69,5,Active
+ORD-02027,28-05-2024,Asha Kulkarni,South,Furniture,12863.91,5,Active
+ORD-01917,20-04-2023,Lakshmi Venkat,North,Electronics,35825.45,5,Active
+ORD-01784,10-02-2024,Suresh Rao,North,Office Supplies,0,16,Cancelled
+ORD-01035,04-04-2024,Pooja Iyer,North,Furniture,8488.52,2,Active
+ORD-01885,16-09-2024,Riya Malhotra,East,Electronics,869.88,1,Active
+ORD-01007,15-04-2024,Dev Mathur,East,Furniture,1694.76,5,Active
+ORD-01840,22-12-2023,Smita Patil,East,Furniture,4480.82,5,Active
+ORD-02036,24-09-2023,Riya Malhotra,East,Furniture,13924.57,1,Active
+ORD-02038,02-07-2024,Tara Saxena,East,Electronics,37898.46,2,Active
+ORD-01479,17-08-2023,Asha Kulkarni,South,Furniture,1520,8,Active
+ORD-02227,18-02-2024,Yash Agarwal,North,Office Supplies,2204.04,20,Active
+ORD-01330,25-09-2023,Divya Kaur,North,Furniture,17186.42,5,Active
+ORD-01652,28-10-2023,Aakash Bhat,South,Office Supplies,0,18,Returned
+ORD-02373,09-04-2023,Deepa Pillai,East,Electronics,19173.06,1,Active
+ORD-02074,12-05-2023,Amit Kumar,South,Furniture,2518.59,3,Active
+ORD-01278,24-02-2024,Ajay Rastogi,East,Office Supplies,0,15,Cancelled
+ORD-01954,04-02-2024,Manish Srivastava,East,Office Supplies,3052.46,1,Active
+ORD-01047,10-07-2024,Vivek Chopra,West,Office Supplies,1874.85,22,Active
+ORD-02378,30-12-2024,Dev Mathur,East,Office Supplies,641.53,4,Active
+ORD-01264,07-12-2024,Yash Agarwal,North,Electronics,32925.2,3,Active
+ORD-01976,26-02-2023,Arjun Reddy,South,Furniture,0,8,Returned
+ORD-01737,11-08-2024,Nikhil Desai,South,Office Supplies,0,8,Returned
+ORD-02040,08-07-2023,Aakash Bhat,South,Electronics,30217.46,3,Active
+ORD-01069,21-10-2023,Aakash Bhat,South,Office Supplies,2142.98,11,Active
+ORD-01428,24-02-2023,Smita Patil,East,Furniture,2716.66,7,Active
+ORD-01234,06-07-2024,Asha Kulkarni,East,Office Supplies,502.12,13,Active
+ORD-01707,12-08-2024,Sneha Gupta,East,Furniture,8745.4,4,Active
+ORD-02398,25-04-2024,Neha Tiwari,North,Electronics,0,5,Cancelled
+ORD-01947,16-09-2023,Pooja Iyer,North,Furniture,0,1,Cancelled
+ORD-02180,18-03-2024,Vivek Chopra,West,Office Supplies,502.94,22,Active
+ORD-01119,27-09-2024,Vikram Singh,West,Office Supplies,392.36,25,Active
+ORD-01091,01-02-2023,Suresh Rao,West,Electronics,28263.04,2,Active
+ORD-02321,08-09-2023,Priya Patel,East,Office Supplies,702.4,18,Active
+ORD-02379,29-11-2023,Divya Kaur,North,Office Supplies,508.61,6,Active
+ORD-01445,21-05-2024,Nikhil Desai,South,Furniture,6278.27,3,Active
+ORD-01436,16-09-2024,Kiran Nambiar,West,Electronics,35490.34,2,Active
+ORD-01958,22-11-2024,Suresh Rao,West,Office Supplies,2708.22,17,Active
+ORD-01333,01-05-2023,Tara Saxena,East,Electronics,10485.48,2,Active
+ORD-01378,27-10-2024,Priya Patel,East,Furniture,6975.9,8,Active
+ORD-02203,26-08-2023,Vikram Singh,West,Furniture,10502.34,2,Active
+ORD-01386,19-03-2023,Gaurav Mishra,South,Office Supplies,0,13,Returned
+ORD-02075,11-03-2024,Rahul Verma,West,Furniture,1052.55,2,Active
+ORD-02313,20-01-2024,Aakash Bhat,South,Electronics,16836.52,1,Active
+ORD-02171,04-06-2024,Nikhil Desai,South,Office Supplies,2070.59,19,Active
+ORD-01674,21-08-2024,Amit Kumar,South,Furniture,14596.29,7,Active
+ORD-01637,30-06-2024,Tara Saxena,East,Furniture,14606.99,2,Active
+ORD-02304,06-09-2023,Pooja Iyer,North,Electronics,6443.49,5,Active
+ORD-01057,16-06-2023,Sanjay Joshi,West,Electronics,8727.74,3,Active
+ORD-01341,04-01-2023,Aakash Bhat,South,Electronics,19527.42,1,Active
+ORD-02041,17-01-2024,Yash Agarwal,North,Electronics,24387.02,1,Active
+ORD-01811,07-01-2023,Vivek Chopra,West,Electronics,0,1,Returned
+ORD-01911,31-12-2023,Vivek Chopra,West,Electronics,32310.12,5,Active
+ORD-01389,25-09-2024,Tara Saxena,East,Office Supplies,303.6,9,Active
+ORD-01713,22-07-2024,Manish Srivastava,East,Furniture,0,7,Cancelled
+ORD-02446,23-02-2023,Sanjay Joshi,West,Office Supplies,1401.74,27,Active
+ORD-02020,03-02-2023,Tara Saxena,East,Furniture,0,4,Cancelled
+ORD-02423,27-01-2023,Tarun Mukerjee,East,Office Supplies,0,23,Returned
+ORD-01734,31-07-2023,Riya Malhotra,East,Electronics,37765.99,3,Active
+ORD-01678,15-10-2023,Pooja Iyer,North,Electronics,0,1,Cancelled
+ORD-01539,05-03-2023,Amit Kumar,South,Office Supplies,383.62,22,Active
+ORD-02324,21-09-2024,Kavya Nair,North,Furniture,13598.15,6,Active
+ORD-01257,13-04-2024,Priya Patel,East,Electronics,35767.03,1,Active
+ORD-02381,15-09-2024,Nidhi Bhatt,South,Office Supplies,2260.04,8,Active
+ORD-02407,24-12-2024,Nidhi Bhatt,South,Electronics,23719.34,2,Active
+ORD-01420,15-04-2023,Dev Mathur,East,Furniture,3788.21,2,Active
+ORD-01343,19-05-2023,Sunita Menon,East,Furniture,8239.11,7,Active
+ORD-01446,11-05-2024,Gaurav Mishra,South,Electronics,2830.68,4,Active
+ORD-01781,12-06-2023,Priya Patel,East,Office Supplies,1847.2,9,Active
+ORD-01671,25-10-2023,Kavya Nair,North,Electronics,32871.05,4,Active
+ORD-01055,10-02-2023,Smita Patil,East,Electronics,0,3,Returned
+ORD-01970,23-09-2023,Sneha Gupta,North,Office Supplies,2560.03,25,Active
+ORD-01988,12-12-2023,Rajesh Choudhury,South,Office Supplies,2037.09,5,Active
+ORD-01527,28-10-2024,Riya Malhotra,East,Electronics,36124.4,1,Active
+ORD-01780,16-04-2024,Sneha Gupta,East,Electronics,21698.89,3,Active
+ORD-02109,12-12-2023,Deepa Pillai,East,Electronics,21172.19,4,Active
+ORD-02057,06-11-2023,Nidhi Bhatt,South,Office Supplies,2602.5,8,Active
+ORD-01727,11-08-2024,Meena Krishnan,North,Furniture,0,4,Returned
+ORD-01830,15-01-2023,Gaurav Mishra,South,Electronics,14286.22,4,Active
+ORD-01877,07-11-2024,Tarun Mukerjee,East,Office Supplies,0,15,Returned
+ORD-02050,05-01-2024,Rajesh Choudhury,South,Furniture,6842.45,6,Active
+ORD-01688,27-09-2023,Nidhi Bhatt,South,Electronics,17448.35,4,Active
+ORD-01091,01-02-2023,Suresh Rao,West,Electronics,28263.04,2,Active
+ORD-02276,17-05-2023,Ananya Sharma,North,Electronics,40643.87,2,Active
+ORD-01183,16-01-2023,Smita Patil,East,Electronics,26827.3,1,Active
+ORD-01076,13-09-2023,Rahul Verma,West,Furniture,0,6,Returned
+ORD-01831,06-12-2023,Aakash Bhat,South,Electronics,0,5,Returned
+ORD-02328,22-01-2024,Ajay Rastogi,North,Furniture,4805.17,2,Active
+ORD-01597,18-04-2023,Varun Naik,North,Electronics,13295.64,1,Active
+ORD-02011,18-06-2024,Geeta Pandey,West,Electronics,26947.87,4,Active
+ORD-01124,11-03-2024,Rahul Verma,West,Office Supplies,564.01,9,Active
+ORD-01188,24-03-2023,Lakshmi Venkat,North,Electronics,6377.67,5,Active
+ORD-01925,31-05-2023,Amit Kumar,South,Furniture,7202.69,8,Active
+ORD-01776,03-04-2023,Amit Kumar,South,Furniture,7738.3,8,Active
+ORD-01522,23-05-2024,Amit Kumar,South,Electronics,11319.42,3,Active
+ORD-01592,23-01-2023,Nidhi Bhatt,South,Electronics,17003.34,1,Active
+ORD-02496,08-10-2024,Ajay Rastogi,North,Furniture,16745.23,1,Active
+ORD-02037,28-12-2023,Tara Saxena,East,Electronics,0,2,Cancelled
+ORD-02362,30-11-2023,Sunita Menon,East,Furniture,3970.49,1,Active
+ORD-01316,20-12-2023,Amit Kumar,South,Furniture,17209.05,2,Active
+ORD-01136,24-03-2024,Geeta Pandey,West,Office Supplies,0,8,Cancelled
+ORD-02123,25-02-2024,Lakshmi Venkat,North,Electronics,28819.59,4,Active
+ORD-01032,29-04-2024,Suresh Rao,West,Furniture,3670.26,2,Active
+ORD-02097,19-05-2024,Bhavna Dubey,South,Office Supplies,1767.75,17,Active
+ORD-01336,22-06-2024,Yash Agarwal,North,Furniture,1682.42,2,Active
+ORD-01886,02-10-2024,Rahul Verma,West,Electronics,36140.74,4,Active
+ORD-02301,28-10-2024,Rohan Mehta,South,Furniture,10704.3,2,Active
+ORD-02137,09-11-2024,Vikram Singh,West,Office Supplies,876.88,18,Active
+ORD-01235,16-06-2023,Sanjay Joshi,West,Office Supplies,0,6,Cancelled
+ORD-01735,20-04-2023,Rahul Verma,West,Office Supplies,3347.44,16,Active
+ORD-01359,02-10-2023,Divya Kaur,North,Office Supplies,186.44,3,Active
+ORD-01896,12-09-2024,Divya Kaur,North,Electronics,0,3,Cancelled
+ORD-01458,15-03-2024,Lakshmi Venkat,North,Electronics,13041.97,1,Active
+ORD-01987,24-05-2024,Tarun Mukerjee,East,Electronics,3589.47,2,Active
+ORD-01031,12-05-2024,Aakash Bhat,South,Office Supplies,3277.52,19,Active
+ORD-01605,22-05-2023,Deepa Pillai,East,Furniture,0,5,Cancelled
+ORD-01746,10-01-2023,Sanjay Joshi,West,Electronics,44803.83,5,Active
+ORD-01345,11-05-2023,Riya Malhotra,East,Electronics,0,4,Cancelled
+ORD-01375,20-04-2023,Sneha Gupta,East,Electronics,9283.4,5,Active
+ORD-01799,20-02-2023,Harsh Shah,West,Office Supplies,294.52,30,Active
+ORD-01427,20-06-2023,Geeta Pandey,West,Electronics,14704.44,4,Active
+ORD-01841,02-10-2024,Meena Krishnan,North,Electronics,42530.84,3,Active
+ORD-01260,08-05-2023,Harsh Shah,West,Furniture,13456.55,7,Active
+ORD-01208,16-03-2024,Sanjay Joshi,West,Office Supplies,2477.67,17,Active
+ORD-02377,30-09-2024,Harsh Shah,South,Furniture,5637.16,8,Active
+ORD-01537,19-10-2024,Dev Mathur,East,Furniture,15973.22,6,Active
+ORD-01177,03-12-2024,Harsh Shah,West,Office Supplies,1287.42,13,Active
+ORD-01547,19-07-2024,Lakshmi Venkat,North,Office Supplies,1630.64,28,Active
+ORD-01589,02-11-2023,Tara Saxena,East,Office Supplies,2107.48,11,Active
+ORD-02206,26-08-2023,Varun Naik,North,Office Supplies,0,20,Cancelled
+ORD-01078,01-04-2024,Deepa Pillai,East,Furniture,8266.23,4,Active
+ORD-02155,24-11-2024,Neha Tiwari,North,Furniture,14326.6,1,Active
+ORD-01013,02-02-2023,Lakshmi Venkat,North,Electronics,0,5,Cancelled
+ORD-02012,15-01-2023,Kiran Nambiar,West,Electronics,11754.15,4,Active
+ORD-01449,01-11-2024,Harsh Shah,West,Furniture,12061.81,3,Active
+ORD-01757,29-08-2023,Meena Krishnan,North,Office Supplies,2636.6,7,Active
+ORD-01227,23-02-2024,Gaurav Mishra,South,Electronics,35683.83,3,Active
+ORD-01813,08-06-2023,Sneha Gupta,East,Electronics,6917.64,3,Active
+ORD-02486,12-10-2024,Arjun Reddy,South,Furniture,13939.24,2,Active
+ORD-02170,24-12-2023,Arjun Reddy,South,Furniture,0,3,Returned
+ORD-01711,25-09-2023,Dev Mathur,East,Furniture,0,7,Returned
+ORD-02429,31-05-2024,Priya Patel,East,Electronics,14119.6,5,Active
+ORD-01950,03-02-2023,Gaurav Mishra,South,Electronics,27123.05,2,Active
+ORD-02492,24-06-2024,Tarun Mukerjee,West,Electronics,30613.88,5,Active
+ORD-01116,02-06-2023,Ajay Rastogi,North,Electronics,44731.18,1,Active
+ORD-01924,21-05-2024,Vikram Singh,West,Electronics,0,1,Returned
+ORD-01696,10-02-2023,Ajay Rastogi,North,Electronics,12215.08,2,Active
+ORD-02067,05-11-2023,Nikhil Desai,South,Office Supplies,1300.7,18,Active
+ORD-01072,29-08-2023,Vivek Chopra,West,Electronics,7313.05,1,Active
+ORD-01349,31-08-2024,Priya Patel,East,Office Supplies,2476.34,2,Active
+ORD-02138,13-11-2023,Harsh Shah,West,Office Supplies,471.09,28,Active
+ORD-02072,23-12-2023,Vivek Chopra,West,Electronics,36913.11,5,Active
+ORD-01884,30-07-2024,Geeta Pandey,West,Office Supplies,1767.21,26,Active
+ORD-01809,17-07-2024,Meena Krishnan,North,Furniture,8220.75,7,Active
+ORD-02462,07-03-2023,Asha Kulkarni,South,Office Supplies,2512.43,26,Active
+ORD-02178,02-07-2023,Suresh Rao,West,Furniture,1878.63,4,Active
+ORD-02351,03-07-2024,Sunita Menon,East,Electronics,17993.49,2,Active
+ORD-01233,20-08-2023,Pooja Iyer,North,Furniture,15246.38,2,Active
+ORD-01726,29-10-2023,Gaurav Mishra,South,Office Supplies,3350.65,29,Active
+ORD-01495,03-11-2023,Meena Krishnan,North,Electronics,2173.83,4,Active
+ORD-02363,28-01-2023,Kavya Nair,North,Office Supplies,2636.59,13,Active
+ORD-01490,08-04-2024,Nikhil Desai,South,Electronics,6816.14,5,Active
+ORD-01353,28-02-2024,Vivek Chopra,West,Office Supplies,0,29,Cancelled
+ORD-01820,21-02-2023,Rajesh Choudhury,South,Office Supplies,2034.63,3,Active
+ORD-01416,07-09-2023,Asha Kulkarni,South,Electronics,15429.74,4,Active
+ORD-01464,16-03-2023,Rohan Mehta,South,Electronics,12388.59,1,Active
+ORD-01623,27-04-2023,Sneha Gupta,East,Electronics,897.11,3,Active
+ORD-01318,29-07-2024,Nikhil Desai,South,Office Supplies,2606.07,8,Active
+ORD-02194,25-09-2024,Sarita Bansal,West,Office Supplies,3372.84,22,Active
+ORD-02140,04-08-2023,Deepa Pillai,East,Office Supplies,0,26,Returned
+ORD-01049,20-07-2024,Amit Kumar,South,Office Supplies,776.67,11,Active
+ORD-02070,20-09-2024,Asha Kulkarni,South,Office Supplies,1951.34,25,Active
+ORD-02088,18-04-2023,Rajesh Choudhury,South,Office Supplies,2383.99,4,Active
+ORD-01832,22-09-2023,Padma Subramaniam,West,Office Supplies,0,23,Cancelled
+ORD-01173,29-04-2023,Sneha Gupta,East,Office Supplies,518.04,15,Active
+ORD-01021,27-09-2023,Varun Naik,North,Office Supplies,3198.57,28,Active
+ORD-01742,27-09-2023,Suresh Rao,West,Office Supplies,1233.68,6,Active
+ORD-02085,11-02-2023,Arjun Reddy,South,Electronics,17807.33,4,Active
+ORD-02318,04-08-2023,Vivek Chopra,West,Furniture,14627.93,3,Active
+ORD-01959,24-11-2024,Sanjay Joshi,West,Electronics,30537.84,1,Active
+ORD-01068,28-06-2023,Sarita Bansal,West,Furniture,9998.49,1,Active
+ORD-01526,19-05-2024,Divya Kaur,North,Furniture,2095.29,8,Active
+ORD-02477,07-10-2023,Amit Kumar,South,Electronics,12895.19,1,Active
+ORD-02494,22-05-2024,Divya Kaur,North,Electronics,15737.77,2,Active
+ORD-01295,04-09-2023,Aakash Bhat,South,Electronics,3033.89,4,Active
+ORD-01010,09-01-2024,Deepa Pillai,East,Electronics,30421.74,1,Active
+ORD-02334,09-02-2023,Dev Mathur,East,Electronics,30639.74,3,Active
+ORD-01693,02-05-2023,Riya Malhotra,East,Furniture,0,8,Cancelled
+ORD-02077,09-03-2023,Vivek Chopra,West,Electronics,35380.79,5,Active
+ORD-01773,20-05-2023,Tara Saxena,East,Furniture,0,5,Cancelled
+ORD-01523,13-10-2024,Arjun Reddy,South,Office Supplies,2254.9,29,Active
+ORD-02413,30-06-2023,Harsh Shah,West,Electronics,9552.51,2,Active
+ORD-01629,27-06-2024,Vikram Singh,West,Furniture,15147.05,8,Active
+ORD-01667,07-05-2023,Priya Patel,West,Office Supplies,1938.96,3,Active
+ORD-02316,28-06-2023,Gaurav Mishra,South,Electronics,8691.53,1,Active
+ORD-02284,12-10-2023,Ajay Rastogi,North,Electronics,0,5,Cancelled
+ORD-01738,13-08-2024,Pooja Iyer,West,Furniture,16931.88,1,Active
+ORD-02059,31-10-2024,Tara Saxena,East,Furniture,16350.24,4,Active
+ORD-02361,26-02-2024,Padma Subramaniam,West,Furniture,1654.65,2,Active
+ORD-02280,18-04-2024,Harsh Shah,West,Furniture,0,1,Returned
+ORD-02458,24-01-2023,Nidhi Bhatt,South,Office Supplies,0,23,Returned
+ORD-01256,02-12-2024,Bhavna Dubey,South,Furniture,11481.72,3,Active
+ORD-02186,04-11-2023,Suresh Rao,West,Furniture,10363.08,2,Active
+ORD-01533,07-02-2024,Ajay Rastogi,North,Furniture,3018.54,6,Active
+ORD-01101,06-04-2024,Suresh Rao,West,Office Supplies,2155.64,13,Active
+ORD-01763,19-05-2023,Dev Mathur,East,Office Supplies,1625.07,24,Active
+ORD-01881,01-03-2023,Sneha Gupta,East,Office Supplies,1874.87,3,Active
+ORD-01545,13-02-2023,Kiran Nambiar,West,Electronics,44879.3,2,Active
+ORD-01223,12-02-2023,Yash Agarwal,North,Office Supplies,2298.84,11,Active
+ORD-01216,30-05-2023,Meena Krishnan,North,Office Supplies,577.4,25,Active
+ORD-01818,30-10-2024,Tarun Mukerjee,East,Office Supplies,2732.09,13,Active
+ORD-01907,27-07-2024,Varun Naik,North,Office Supplies,1258.6,11,Active
+ORD-01312,27-06-2023,Bhavna Dubey,South,Furniture,9969.04,5,Active
+ORD-02230,07-07-2024,Tara Saxena,East,Office Supplies,1953.66,17,Active
+ORD-02348,06-12-2024,Tarun Mukerjee,East,Electronics,9595.74,4,Active
+ORD-01766,24-09-2023,Amit Kumar,South,Electronics,23930.58,2,Active
+ORD-01865,10-04-2024,Arjun Reddy,South,Office Supplies,2287.59,23,Active
+ORD-01673,18-07-2023,Lakshmi Venkat,North,Furniture,0,5,Cancelled
+ORD-01109,03-05-2023,Dev Mathur,East,Office Supplies,0,7,Cancelled
+ORD-01309,20-01-2023,Yash Agarwal,North,Electronics,19052.84,2,Active
+ORD-02182,30-07-2024,Tarun Mukerjee,East,Furniture,14654.6,3,Active
+ORD-01564,24-10-2024,Riya Malhotra,East,Furniture,0,1,Returned
+ORD-02488,20-10-2023,Padma Subramaniam,West,Electronics,0,4,Cancelled
+ORD-01288,09-04-2024,Kavya Nair,North,Electronics,20230.56,4,Active
+ORD-01120,02-10-2024,Aakash Bhat,South,Electronics,7741.92,2,Active
+ORD-02355,10-09-2023,Asha Kulkarni,South,Office Supplies,3083.38,15,Active
+ORD-02217,10-06-2023,Tara Saxena,East,Office Supplies,1769.45,28,Active
+ORD-01239,24-06-2024,Sunita Menon,East,Electronics,36215.66,2,Active
+ORD-01642,22-10-2023,Vikram Singh,West,Furniture,7673.22,6,Active
+ORD-01192,01-03-2024,Sneha Gupta,East,Furniture,12072.41,6,Active
+ORD-01902,16-05-2023,Aakash Bhat,South,Furniture,7160.31,2,Active
+ORD-01672,01-01-2024,Pooja Iyer,North,Electronics,5221.99,5,Active
+ORD-01949,14-01-2024,Sanjay Joshi,West,Office Supplies,864.88,6,Active
+ORD-01454,17-11-2023,Harsh Shah,West,Electronics,17716.27,2,Active
+ORD-01483,27-08-2023,Dev Mathur,East,Office Supplies,3076.34,11,Active
+ORD-02266,21-07-2024,Nidhi Bhatt,South,Electronics,34523.64,2,Active
+ORD-02035,31-03-2024,Bhavna Dubey,South,Electronics,40504.06,3,Active
+ORD-01191,18-07-2024,Aakash Bhat,South,Electronics,19090.56,4,Active
+ORD-02065,24-10-2023,Tara Saxena,East,Electronics,0,2,Returned
+ORD-01765,08-05-2024,Dev Mathur,East,Electronics,20330.23,3,Active
+ORD-01492,02-01-2024,Aakash Bhat,South,Furniture,4990.64,2,Active
+ORD-01936,19-07-2024,Yash Agarwal,North,Electronics,9011.96,5,Active
+ORD-01834,03-03-2023,Tara Saxena,East,Office Supplies,2181.98,2,Active
+ORD-02283,24-12-2024,Tarun Mukerjee,East,Electronics,44304.45,4,Active
+ORD-02412,14-12-2024,Sunita Menon,East,Office Supplies,1044.77,14,Active
+ORD-01842,05-06-2023,Gaurav Mishra,South,Office Supplies,523.55,24,Active
+ORD-01772,19-10-2023,Dev Mathur,East,Furniture,3627.61,2,Active
+ORD-01908,25-05-2023,Tara Saxena,East,Electronics,3948.93,5,Active
+ORD-01852,27-01-2023,Smita Patil,West,Electronics,23002.75,5,Active
+ORD-01690,20-02-2024,Smita Patil,East,Furniture,8917.45,8,Active
+ORD-01572,07-11-2024,Lakshmi Venkat,North,Office Supplies,137.82,16,Active
+ORD-01272,24-07-2023,Rahul Verma,West,Electronics,20780.29,4,Active
+ORD-02136,07-01-2024,Manish Srivastava,East,Furniture,0,1,Cancelled
+ORD-01646,10-06-2024,Rahul Verma,West,Furniture,5240.29,5,Active
+ORD-01590,04-12-2024,Pooja Iyer,North,Furniture,6658.74,4,Active
+ORD-01210,12-08-2024,Kiran Nambiar,West,Office Supplies,2258.49,10,Active
+ORD-01404,26-12-2024,Aakash Bhat,South,Furniture,15013.69,2,Active
+ORD-02309,14-11-2024,Manish Srivastava,East,Furniture,10915.79,6,Active
+ORD-02119,04-07-2023,Rohan Mehta,South,Office Supplies,3026.35,19,Active
+ORD-01018,08-03-2024,Tarun Mukerjee,West,Office Supplies,3486.62,17,Active
+ORD-02169,28-07-2024,Geeta Pandey,West,Electronics,38186.06,2,Active
+ORD-01964,13-12-2024,Sanjay Joshi,West,Furniture,11990.46,2,Active
+ORD-02269,07-04-2024,Priya Patel,West,Office Supplies,1047.91,6,Active
+ORD-02374,27-11-2023,Padma Subramaniam,West,Office Supplies,764.56,18,Active
+ORD-01887,16-02-2023,Gaurav Mishra,South,Office Supplies,782.57,21,Active
+ORD-01631,26-11-2023,Varun Naik,North,Furniture,17637.16,4,Active
+ORD-01888,07-12-2024,Tara Saxena,East,Electronics,14403.55,5,Active
+ORD-01429,01-06-2024,Geeta Pandey,West,Furniture,7656.66,8,Active
+ORD-02141,21-10-2024,Sunita Menon,East,Furniture,15636.07,8,Active
+ORD-01197,08-05-2024,Riya Malhotra,East,Furniture,15263.11,6,Active
+ORD-02034,18-12-2023,Lakshmi Venkat,North,Office Supplies,2454.18,27,Active
+ORD-01999,30-04-2024,Geeta Pandey,West,Office Supplies,3233.22,2,Active
+ORD-02254,21-10-2024,Padma Subramaniam,West,Office Supplies,1919.33,25,Active
+ORD-01164,04-02-2023,Nidhi Bhatt,South,Electronics,4783.9,3,Active
+ORD-01140,18-07-2024,Amit Kumar,South,Office Supplies,1803.43,29,Active
+ORD-02451,26-10-2023,Amit Kumar,South,Office Supplies,725.01,21,Active
+ORD-01718,29-01-2024,Rajesh Choudhury,South,Office Supplies,1038.32,20,Active
+ORD-02042,19-02-2024,Geeta Pandey,West,Furniture,16722.26,3,Active
+ORD-01600,07-05-2024,Gaurav Mishra,South,Electronics,30486.18,1,Active
+ORD-02364,13-02-2024,Neha Tiwari,North,Electronics,11876.77,2,Active
+ORD-01491,09-06-2023,Sneha Gupta,East,Furniture,5858.39,2,Active
+ORD-02264,31-05-2024,Divya Kaur,North,Furniture,1373.19,8,Active
+ORD-01606,06-04-2023,Harsh Shah,West,Electronics,5831.37,4,Active
+ORD-01803,10-04-2023,Sneha Gupta,East,Office Supplies,1379.39,7,Active
+ORD-01748,12-04-2023,Deepa Pillai,East,Furniture,15149.8,2,Active
+ORD-02058,03-01-2023,Amit Kumar,South,Office Supplies,2928.14,16,Active
+ORD-02483,01-10-2023,Vikram Singh,West,Office Supplies,0,23,Returned
+ORD-01299,17-07-2024,Nikhil Desai,South,Office Supplies,2397.38,4,Active
+ORD-01521,05-02-2024,Ajay Rastogi,East,Office Supplies,812.09,19,Active
+ORD-01202,16-12-2023,Deepa Pillai,East,Office Supplies,1169.12,19,Active
+ORD-01824,29-10-2024,Ajay Rastogi,North,Office Supplies,3489.92,17,Active
+ORD-01368,17-07-2024,Gaurav Mishra,South,Furniture,17407.2,8,Active
+ORD-02113,20-06-2023,Sarita Bansal,West,Furniture,3871.13,2,Active
+ORD-02258,16-02-2023,Geeta Pandey,West,Electronics,15826.08,2,Active
+ORD-02330,08-06-2024,Sarita Bansal,West,Furniture,8575.65,7,Active
+ORD-01995,28-06-2023,Sarita Bansal,West,Office Supplies,671,16,Active
+ORD-01826,18-11-2024,Sunita Menon,East,Furniture,3671.67,6,Active
+ORD-02006,16-09-2024,Bhavna Dubey,South,Furniture,2714.36,4,Active
+ORD-02096,07-11-2023,Sarita Bansal,West,Electronics,0,5,Returned
+ORD-02375,14-03-2024,Rahul Verma,West,Electronics,16560.67,2,Active
+ORD-02108,25-10-2024,Vivek Chopra,West,Office Supplies,275.98,10,Active
+ORD-02250,05-04-2024,Yash Agarwal,North,Office Supplies,1172,26,Active
+ORD-01382,31-07-2024,Priya Patel,East,Furniture,577.15,4,Active
+ORD-01240,23-02-2023,Manish Srivastava,East,Office Supplies,3273.31,23,Active
+ORD-01151,03-04-2023,Kiran Nambiar,West,Office Supplies,2478.42,4,Active
+ORD-02234,09-08-2024,Ananya Sharma,North,Electronics,36398.13,5,Active
+ORD-02071,03-03-2024,Bhavna Dubey,South,Electronics,36992.94,1,Active
+ORD-01363,17-10-2023,Divya Kaur,North,Office Supplies,1289.45,9,Active
+ORD-02303,10-05-2023,Varun Naik,North,Furniture,8820.77,8,Active
+ORD-02431,05-08-2023,Deepa Pillai,East,Office Supplies,2464.69,4,Active
+ORD-02181,12-01-2024,Varun Naik,North,Furniture,15971.81,8,Active
+ORD-01955,04-04-2024,Divya Kaur,North,Office Supplies,2405.92,2,Active
+ORD-01141,13-03-2023,Nikhil Desai,South,Furniture,6315.79,5,Active
+ORD-02126,24-10-2024,Priya Patel,East,Furniture,2714.82,5,Active
+ORD-01065,17-11-2024,Neha Tiwari,North,Electronics,42740.25,3,Active
+ORD-01355,23-11-2023,Sunita Menon,East,Furniture,6963.35,8,Active
+ORD-01648,07-06-2023,Lakshmi Venkat,North,Office Supplies,2173.85,22,Active
+ORD-02216,12-02-2023,Varun Naik,North,Office Supplies,457.3,7,Active
+ORD-01113,17-05-2024,Sneha Gupta,East,Office Supplies,1030.97,16,Active
+ORD-01722,10-10-2023,Rajesh Choudhury,South,Furniture,7476.48,4,Active
+ORD-01168,21-11-2024,Rajesh Choudhury,South,Office Supplies,1311.92,26,Active
+ORD-01451,08-04-2023,Ananya Sharma,North,Electronics,6665.33,2,Active
+ORD-01771,03-09-2023,Asha Kulkarni,South,Office Supplies,2836.13,22,Active
+ORD-01796,24-02-2024,Lakshmi Venkat,North,Office Supplies,2323.17,2,Active
+ORD-02456,20-01-2024,Arjun Reddy,South,Office Supplies,1368.25,21,Active
+ORD-01767,21-10-2023,Manish Srivastava,East,Office Supplies,3231.2,25,Active
+ORD-02464,04-07-2023,Ananya Sharma,North,Furniture,2477.9,3,Active
+ORD-02154,22-10-2023,Geeta Pandey,West,Furniture,15457.18,4,Active
+ORD-01828,30-09-2024,Amit Kumar,South,Electronics,9626.09,3,Active
+ORD-02471,17-07-2024,Meena Krishnan,North,Office Supplies,3167.63,13,Active
+ORD-02145,18-10-2024,Pooja Iyer,South,Office Supplies,1104.14,19,Active
+ORD-02465,31-07-2023,Deepa Pillai,East,Furniture,15370.67,1,Active
+ORD-01692,20-10-2024,Nikhil Desai,South,Electronics,0,5,Cancelled
+ORD-01469,08-09-2023,Arjun Reddy,South,Electronics,20839.04,5,Active
+ORD-01099,18-06-2024,Nikhil Desai,South,Office Supplies,2722.51,15,Active
+ORD-01063,18-11-2023,Kiran Nambiar,West,Office Supplies,448.98,29,Active
+ORD-01131,23-02-2024,Gaurav Mishra,South,Electronics,38711.8,3,Active
+ORD-01649,17-05-2024,Ajay Rastogi,North,Electronics,35454.19,3,Active
+ORD-02387,25-01-2023,Riya Malhotra,East,Furniture,6366.29,4,Active
+ORD-01082,22-02-2024,Gaurav Mishra,South,Furniture,1402.1,7,Active
+ORD-02176,05-08-2024,Pooja Iyer,North,Electronics,36228.86,3,Active
+ORD-01280,13-05-2023,Kiran Nambiar,West,Electronics,37547.47,5,Active
+ORD-02144,09-04-2024,Rohan Mehta,South,Office Supplies,2263.49,21,Active
+ORD-01861,20-10-2023,Bhavna Dubey,South,Furniture,0,1,Cancelled
+ORD-02393,13-08-2024,Yash Agarwal,North,Electronics,12816.25,4,Active
+ORD-01609,05-08-2024,Yash Agarwal,North,Furniture,0,1,Cancelled
+ORD-01176,07-12-2024,Harsh Shah,West,Furniture,17124.83,6,Active
+ORD-01061,18-10-2024,Varun Naik,North,Office Supplies,1192.47,1,Active
+ORD-01613,05-12-2024,Sarita Bansal,West,Office Supplies,2556.95,16,Active
+ORD-01438,27-10-2023,Tara Saxena,East,Office Supplies,3449.93,22,Active
+ORD-01311,15-06-2024,Aakash Bhat,South,Office Supplies,1700.38,13,Active
+ORD-02060,03-05-2023,Nikhil Desai,South,Electronics,27271,3,Active
+ORD-01854,17-07-2023,Riya Malhotra,North,Furniture,0,4,Returned
+ORD-01338,28-03-2024,Rahul Verma,West,Office Supplies,2061.86,3,Active
+ORD-02046,12-11-2023,Rohan Mehta,South,Electronics,20511.99,1,Active
+ORD-02066,07-04-2023,Tarun Mukerjee,East,Office Supplies,0,11,Cancelled
+ORD-02090,08-01-2024,Neha Tiwari,North,Office Supplies,2961.9,13,Active
+ORD-01153,03-01-2024,Harsh Shah,West,Electronics,0,5,Cancelled
+ORD-02484,13-09-2023,Tarun Mukerjee,East,Furniture,3540.95,6,Active
+ORD-01083,21-08-2024,Rohan Mehta,South,Office Supplies,1362.31,1,Active
+ORD-02370,18-10-2024,Sneha Gupta,East,Furniture,8158.56,1,Active
+ORD-02165,17-11-2023,Kiran Nambiar,West,Furniture,0,8,Returned
+ORD-01599,21-12-2024,Sunita Menon,East,Electronics,0,2,Cancelled
+ORD-01676,04-01-2024,Pooja Iyer,North,Furniture,15838.58,8,Active
+ORD-01161,20-02-2023,Tarun Mukerjee,East,Furniture,14030.62,4,Active
+ORD-01456,07-08-2023,Amit Kumar,South,Office Supplies,2418.65,28,Active
+ORD-01661,19-02-2024,Kiran Nambiar,West,Furniture,12217.39,1,Active
+ORD-01653,26-10-2024,Ananya Sharma,North,Furniture,8188.31,4,Active
+ORD-01352,04-09-2024,Lakshmi Venkat,North,Electronics,44367.74,5,Active
+ORD-02117,29-10-2024,Vivek Chopra,West,Furniture,7962.52,6,Active
+ORD-01505,07-10-2024,Dev Mathur,East,Furniture,14139.91,6,Active
+ORD-02497,24-09-2024,Geeta Pandey,North,Office Supplies,1638.22,10,Active
+ORD-01250,11-06-2024,Ajay Rastogi,North,Electronics,13674.22,1,Active
+ORD-02112,08-12-2024,Aakash Bhat,South,Office Supplies,2849.53,22,Active
+ORD-02478,16-08-2023,Divya Kaur,North,Electronics,8567.33,3,Active
+ORD-01715,08-08-2023,Varun Naik,North,Furniture,14475.11,1,Active
+ORD-01937,14-08-2024,Geeta Pandey,West,Electronics,32276.15,3,Active
+ORD-01524,02-04-2024,Ananya Sharma,North,Electronics,31438.38,3,Active
+ORD-01052,26-09-2023,Deepa Pillai,East,Office Supplies,2484.55,18,Active
+ORD-01595,16-09-2023,Manish Srivastava,East,Electronics,31527.49,1,Active
+ORD-01611,06-03-2023,Meena Krishnan,North,Electronics,0,5,Returned
+ORD-01702,19-06-2024,Varun Naik,North,Electronics,27563.59,2,Active
+ORD-01468,11-10-2024,Kavya Nair,North,Furniture,13220.26,4,Active
+ORD-02121,20-03-2024,Ajay Rastogi,North,Electronics,23884.32,3,Active
+ORD-01433,12-02-2023,Yash Agarwal,North,Furniture,2112.77,4,Active
+ORD-01254,17-01-2023,Smita Patil,East,Furniture,0,2,Returned
+ORD-01768,03-11-2023,Ananya Sharma,North,Furniture,10866.97,1,Active
+ORD-01048,03-11-2023,Sneha Gupta,East,Electronics,0,1,Returned
+ORD-01093,13-01-2024,Deepa Pillai,East,Office Supplies,2528.33,25,Active
+ORD-01138,17-04-2024,Rahul Verma,West,Electronics,22828.2,3,Active
+ORD-02149,06-07-2023,Rajesh Choudhury,South,Office Supplies,824.48,1,Active
+ORD-01892,10-12-2023,Bhavna Dubey,South,Furniture,16721.88,1,Active
+ORD-02453,22-06-2023,Vikram Singh,West,Furniture,3479.5,1,Active
+ORD-01969,18-05-2024,Sneha Gupta,East,Furniture,4165.44,2,Active
+ORD-02443,24-11-2023,Vivek Chopra,West,Office Supplies,0,28,Cancelled
+ORD-01471,23-05-2024,Smita Patil,East,Office Supplies,944.4,12,Active
+ORD-01114,15-12-2023,Sanjay Joshi,West,Furniture,16956.83,8,Active
+ORD-02295,31-08-2023,Kavya Nair,North,Office Supplies,1562.93,4,Active
+ORD-01731,22-10-2023,Arjun Reddy,South,Office Supplies,2882.71,3,Active
+ORD-02347,07-04-2024,Vivek Chopra,West,Electronics,30629.94,2,Active
+ORD-02383,31-08-2023,Kiran Nambiar,West,Office Supplies,323.89,5,Active
+ORD-02221,26-06-2024,Sunita Menon,East,Electronics,36238.18,4,Active
+ORD-02346,05-02-2024,Kavya Nair,North,Electronics,21785.17,3,Active
+ORD-01546,22-09-2023,Lakshmi Venkat,North,Electronics,4646.61,5,Active
+ORD-01388,20-01-2024,Kiran Nambiar,West,Office Supplies,0,3,Returned
+ORD-01252,05-01-2024,Kavya Nair,North,Office Supplies,1800.28,17,Active
+ORD-02408,19-06-2023,Kiran Nambiar,West,Furniture,9161.45,7,Active
+ORD-01706,26-01-2024,Smita Patil,East,Office Supplies,0,27,Cancelled
+ORD-02039,01-09-2023,Rahul Verma,East,Office Supplies,486.33,9,Active
+ORD-01973,25-12-2024,Geeta Pandey,West,Furniture,15239.67,2,Active
+ORD-02247,09-08-2023,Sanjay Joshi,West,Furniture,336.92,6,Active
+ORD-01367,06-06-2023,Neha Tiwari,North,Furniture,10385.27,4,Active
+ORD-02173,07-04-2023,Gaurav Mishra,North,Furniture,6911.98,2,Active
+ORD-01134,02-01-2023,Dev Mathur,East,Electronics,9091.15,3,Active
+ORD-02336,10-07-2024,Meena Krishnan,East,Furniture,14854.87,7,Active
+ORD-01912,21-04-2024,Ajay Rastogi,North,Office Supplies,1665.55,15,Active
+ORD-01901,02-12-2023,Amit Kumar,South,Electronics,0,5,Cancelled
+ORD-02017,06-05-2024,Vivek Chopra,West,Furniture,15485.22,1,Active
+ORD-02018,19-04-2024,Pooja Iyer,North,Furniture,3573.54,6,Active
+ORD-01965,09-04-2024,Nikhil Desai,South,Office Supplies,0,25,Returned
+ORD-01553,08-12-2024,Suresh Rao,West,Furniture,16177.46,1,Active
+ORD-02419,05-08-2023,Asha Kulkarni,South,Furniture,10972.83,5,Active
+ORD-01542,30-08-2023,Manish Srivastava,East,Furniture,16279.16,1,Active
+ORD-01778,10-07-2024,Manish Srivastava,East,Furniture,14765.34,1,Active
+ORD-02342,10-01-2023,Geeta Pandey,West,Furniture,6314.85,7,Active
+ORD-01331,09-08-2024,Ananya Sharma,North,Furniture,0,1,Cancelled
+ORD-02296,02-04-2024,Nidhi Bhatt,South,Electronics,41318.78,4,Active
+ORD-02403,28-10-2024,Divya Kaur,North,Office Supplies,901.43,16,Active
+ORD-02102,23-04-2023,Ajay Rastogi,North,Office Supplies,1960.55,18,Active
+ORD-01122,26-08-2023,Tara Saxena,East,Office Supplies,0,3,Cancelled
+ORD-02414,23-04-2023,Yash Agarwal,North,Electronics,0,1,Returned
+ORD-01130,05-07-2023,Nidhi Bhatt,South,Furniture,17452.28,8,Active
+ORD-01617,20-10-2024,Divya Kaur,North,Electronics,4284.31,4,Active
+ORD-01237,19-10-2023,Yash Agarwal,North,Electronics,14478.48,4,Active
+ORD-01758,11-02-2024,Sneha Gupta,East,Furniture,0,1,Returned
+ORD-01786,03-12-2024,Sarita Bansal,West,Office Supplies,257.18,12,Active
+ORD-01530,22-12-2024,Rohan Mehta,South,Office Supplies,619.24,29,Active
+ORD-01570,11-12-2023,Nikhil Desai,South,Furniture,4922.3,5,Active
+ORD-01413,26-05-2023,Smita Patil,East,Furniture,14181.58,8,Active
+ORD-01178,14-07-2023,Rahul Verma,West,Furniture,1922.62,4,Active
+ORD-01400,31-08-2024,Pooja Iyer,North,Office Supplies,3318.11,7,Active
+ORD-01132,11-12-2024,Geeta Pandey,West,Furniture,14700.12,1,Active
+ORD-01440,16-05-2023,Suresh Rao,West,Furniture,14964.13,7,Active
+ORD-01053,25-04-2023,Kavya Nair,North,Office Supplies,3168.55,18,Active
+ORD-01403,12-07-2024,Sanjay Joshi,West,Office Supplies,142.86,24,Active
+ORD-01198,13-10-2023,Ajay Rastogi,North,Furniture,15259.25,1,Active
+ORD-02442,26-05-2024,Bhavna Dubey,South,Furniture,2881.91,1,Active
+ORD-01951,27-02-2024,Divya Kaur,North,Furniture,13150.18,3,Active
+ORD-01909,07-07-2024,Yash Agarwal,North,Furniture,16288.28,1,Active
+ORD-02382,24-08-2024,Ananya Sharma,North,Office Supplies,2668.35,4,Active
+ORD-01633,08-09-2024,Varun Naik,North,Office Supplies,0,11,Cancelled
+ORD-01326,31-05-2024,Bhavna Dubey,South,Electronics,15416.24,4,Active
+ORD-01532,21-07-2024,Dev Mathur,East,Furniture,5563.99,2,Active
+ORD-01587,23-11-2024,Ananya Sharma,North,Electronics,10800.94,3,Active
+ORD-02053,29-02-2024,Pooja Iyer,North,Office Supplies,346.97,7,Active
+ORD-01027,06-07-2024,Neha Tiwari,North,Furniture,17914.14,6,Active
+ORD-01856,16-05-2024,Lakshmi Venkat,North,Electronics,19697.96,1,Active
+ORD-02222,14-04-2024,Asha Kulkarni,South,Furniture,17004.2,8,Active
+ORD-01580,27-05-2024,Rahul Verma,West,Furniture,9678.14,7,Active
+ORD-02134,23-02-2024,Meena Krishnan,North,Electronics,0,3,Cancelled
+ORD-01248,23-10-2023,Suresh Rao,West,Electronics,11339.03,5,Active
+ORD-01425,02-02-2024,Sunita Menon,East,Office Supplies,1373.8,6,Active
+ORD-01645,18-07-2023,Tara Saxena,East,Office Supplies,0,6,Cancelled
+ORD-02212,07-03-2023,Gaurav Mishra,South,Office Supplies,832.08,18,Active
+ORD-01275,04-06-2024,Riya Malhotra,East,Electronics,35809.3,2,Active
+ORD-01978,13-12-2024,Divya Kaur,North,Office Supplies,2426.51,16,Active
+ORD-01520,06-12-2024,Tara Saxena,East,Office Supplies,56.2,23,Active
+ORD-01230,01-09-2024,Arjun Reddy,South,Furniture,11689.83,6,Active
+ORD-01384,03-02-2024,Dev Mathur,East,Office Supplies,0,23,Cancelled
+ORD-02323,04-06-2024,Nidhi Bhatt,South,Electronics,32946.6,4,Active
+ORD-01406,09-03-2024,Divya Kaur,West,Office Supplies,0,17,Cancelled
+ORD-02262,04-02-2024,Sneha Gupta,East,Furniture,16106.3,5,Active
+ORD-01476,08-09-2023,Priya Patel,East,Furniture,16588.01,3,Active
+ORD-01360,24-08-2024,Padma Subramaniam,West,Electronics,39230.74,3,Active
+ORD-01860,07-10-2024,Vikram Singh,West,Furniture,0,5,Returned
+ORD-01481,31-07-2024,Vivek Chopra,West,Electronics,21305.56,5,Active
+ORD-01201,26-05-2023,Rohan Mehta,South,Office Supplies,792.21,14,Active
+ORD-01753,17-10-2024,Gaurav Mishra,South,Office Supplies,2022.15,28,Active
+ORD-01621,12-04-2024,Gaurav Mishra,South,Electronics,36893.22,4,Active
+ORD-01960,26-02-2024,Sneha Gupta,East,Office Supplies,0,8,Cancelled
+ORD-01751,12-08-2024,Dev Mathur,East,Furniture,0,8,Returned
+ORD-01895,01-02-2023,Gaurav Mishra,South,Office Supplies,1893.24,6,Active
+ORD-02158,06-08-2023,Divya Kaur,North,Office Supplies,2110.33,3,Active
+ORD-01049,20-07-2024,Amit Kumar,South,Office Supplies,776.67,11,Active
+ORD-02122,01-06-2023,Suresh Rao,West,Office Supplies,2691.08,28,Active
+ORD-01956,28-06-2024,Smita Patil,East,Furniture,11105.59,5,Active
+ORD-01596,06-03-2024,Sneha Gupta,East,Furniture,11323.52,3,Active
+ORD-01921,29-12-2024,Ajay Rastogi,North,Electronics,26973.61,4,Active
+ORD-02479,16-05-2024,Sneha Gupta,East,Office Supplies,2023.95,10,Active
+ORD-01103,15-12-2023,Nikhil Desai,South,Office Supplies,3086.37,18,Active
+ORD-01558,15-11-2023,Varun Naik,North,Office Supplies,3083.7,1,Active
+ORD-02472,27-03-2023,Meena Krishnan,North,Office Supplies,544.19,7,Active
+ORD-01615,12-01-2023,Deepa Pillai,East,Furniture,15378.12,3,Active
+ORD-01422,06-02-2024,Nidhi Bhatt,South,Furniture,0,3,Cancelled
+ORD-01647,14-06-2023,Nidhi Bhatt,South,Electronics,15410.88,2,Active
+ORD-01836,21-04-2023,Rohan Mehta,South,Office Supplies,1383.51,13,Active
+ORD-02193,09-02-2024,Rahul Verma,West,Furniture,12544.97,8,Active
+ORD-01849,26-02-2024,Vivek Chopra,West,Office Supplies,3269.71,9,Active
+ORD-01102,30-01-2023,Geeta Pandey,West,Electronics,22349.71,3,Active
+ORD-02177,26-02-2023,Kavya Nair,North,Office Supplies,1365.8,13,Active
+ORD-01814,13-09-2023,Riya Malhotra,East,Furniture,1926.72,7,Active
+ORD-01292,25-10-2023,Divya Kaur,North,Furniture,4694.38,3,Active
+ORD-02380,05-12-2024,Lakshmi Venkat,North,Office Supplies,1713.35,11,Active
+ORD-02320,16-07-2023,Dev Mathur,East,Furniture,5927.74,7,Active
+ORD-02061,07-05-2024,Ajay Rastogi,North,Furniture,0,8,Cancelled
+ORD-02086,16-11-2023,Yash Agarwal,North,Furniture,5443.43,7,Active
+ORD-01610,14-05-2023,Manish Srivastava,East,Electronics,40031.65,4,Active
+ORD-01567,21-01-2024,Smita Patil,East,Electronics,21428.05,5,Active
+ORD-01182,14-05-2023,Dev Mathur,East,Electronics,5658.74,1,Active
+ORD-01807,06-09-2024,Yash Agarwal,North,Furniture,10036.44,6,Active
+ORD-01708,18-10-2023,Tarun Mukerjee,East,Furniture,0,1,Cancelled
+ORD-01042,29-08-2023,Rajesh Choudhury,South,Office Supplies,899.44,20,Active
+ORD-01725,18-02-2024,Ajay Rastogi,South,Furniture,9260.41,2,Active
+ORD-01675,05-01-2023,Lakshmi Venkat,North,Electronics,32279.2,4,Active
+ORD-01975,03-08-2024,Dev Mathur,East,Furniture,6201.88,5,Active
+ORD-02416,20-06-2023,Arjun Reddy,South,Furniture,2506.86,2,Active
+ORD-01437,06-08-2024,Smita Patil,East,Office Supplies,0,11,Cancelled
+ORD-02139,29-03-2024,Divya Kaur,West,Furniture,5625.72,4,Active
+ORD-01638,26-01-2024,Amit Kumar,North,Electronics,12600.44,2,Active
+ORD-02242,22-12-2024,Varun Naik,North,Electronics,31495.61,4,Active
+ORD-01421,17-11-2024,Geeta Pandey,West,Office Supplies,1131.24,13,Active
+ORD-01804,03-11-2024,Suresh Rao,West,Electronics,25482.32,5,Active
+ORD-01467,27-03-2023,Vivek Chopra,South,Electronics,24508.45,4,Active
+ORD-01677,03-01-2024,Vivek Chopra,West,Electronics,8569.04,5,Active
+ORD-01128,27-11-2023,Tarun Mukerjee,East,Electronics,10918.46,5,Active
+ORD-01923,04-09-2024,Sneha Gupta,East,Office Supplies,2711.13,13,Active
+ORD-02368,21-03-2023,Ananya Sharma,North,Electronics,20277.08,2,Active
+ORD-02151,19-12-2024,Deepa Pillai,West,Office Supplies,947.54,3,Active
+ORD-01110,10-05-2024,Nikhil Desai,South,Office Supplies,2108.93,4,Active
+ORD-02502,15-03-2024,Sunita Menon,East,Electronics,0,0,Active
+ORD-01380,06-12-2023,Ajay Rastogi,North,Electronics,40349.77,1,Active
+ORD-02110,11-06-2024,Sunita Menon,East,Office Supplies,1670.46,1,Active
+ORD-01839,11-09-2023,Asha Kulkarni,South,Furniture,7263.18,3,Active
+ORD-01196,06-09-2024,Vivek Chopra,West,Office Supplies,1800.57,5,Active
+ORD-01215,24-12-2023,Smita Patil,East,Office Supplies,2861.88,8,Active
+ORD-01357,27-02-2024,Sunita Menon,East,Electronics,17968.12,3,Active
+ORD-01222,31-08-2024,Varun Naik,North,Office Supplies,0,26,Cancelled
+ORD-02105,25-11-2023,Vikram Singh,North,Electronics,0,3,Cancelled
+ORD-02081,25-06-2023,Dev Mathur,North,Electronics,41485.09,4,Active
+ORD-02285,29-11-2024,Tarun Mukerjee,East,Electronics,26796.87,1,Active
+ORD-01560,22-12-2024,Neha Tiwari,North,Furniture,0,2,Cancelled
+ORD-02293,06-03-2023,Sneha Gupta,West,Electronics,26989.86,3,Active
+ORD-01961,18-10-2023,Meena Krishnan,North,Electronics,28177.36,1,Active
+ORD-01224,02-05-2024,Varun Naik,North,Electronics,0,3,Cancelled
+ORD-01038,03-01-2023,Divya Kaur,North,Furniture,5348.91,8,Active
+ORD-02106,20-08-2024,Rohan Mehta,South,Office Supplies,1227.34,4,Active
+ORD-01687,10-02-2023,Lakshmi Venkat,North,Office Supplies,0,9,Cancelled
+ORD-01655,17-10-2023,Rohan Mehta,South,Furniture,9403.27,8,Active
+ORD-01802,25-06-2024,Priya Patel,East,Furniture,1679.46,4,Active
+ORD-01650,14-08-2023,Sanjay Joshi,West,Office Supplies,599.83,18,Active
+ORD-02246,27-05-2023,Amit Kumar,South,Furniture,1161.12,5,Active
+ORD-01462,26-05-2024,Tarun Mukerjee,North,Furniture,16830.46,3,Active
+ORD-01004,14-08-2023,Yash Agarwal,North,Electronics,0,2,Cancelled
+ORD-01534,13-03-2024,Arjun Reddy,South,Office Supplies,2206.56,16,Active
+ORD-01850,12-07-2023,Sneha Gupta,East,Electronics,34500.18,5,Active
+ORD-02089,09-02-2024,Rajesh Choudhury,South,Electronics,33571.3,2,Active
+ORD-01117,02-03-2024,Tarun Mukerjee,East,Office Supplies,828.62,17,Active
+ORD-01682,25-10-2023,Pooja Iyer,North,Office Supplies,362.41,12,Active
+ORD-01512,31-07-2024,Amit Kumar,South,Electronics,37782,4,Active
+ORD-02062,03-05-2023,Harsh Shah,West,Office Supplies,110.53,9,Active
+ORD-02468,17-05-2024,Lakshmi Venkat,North,Furniture,0,4,Cancelled
+ORD-01155,04-09-2023,Geeta Pandey,West,Electronics,11062.73,3,Active
+ORD-01015,29-09-2023,Pooja Iyer,North,Office Supplies,1909.47,24,Active
+ORD-01922,22-07-2024,Sneha Gupta,East,Electronics,14415.18,4,Active
+ORD-01681,28-04-2024,Amit Kumar,South,Electronics,0,5,Cancelled
+ORD-01332,02-05-2023,Bhavna Dubey,South,Furniture,0,5,Cancelled
+ORD-01149,24-03-2023,Gaurav Mishra,South,Office Supplies,1361.03,11,Active
+ORD-01632,12-02-2024,Gaurav Mishra,South,Furniture,14544.9,3,Active
+ORD-02499,14-04-2023,Kiran Nambiar,West,Electronics,24186.07,2,Active
+ORD-02156,26-09-2023,Suresh Rao,West,Electronics,17137.99,4,Active
+ORD-02127,05-11-2024,Padma Subramaniam,West,Electronics,43399.38,4,Active
+ORD-01704,06-07-2024,Ananya Sharma,North,Office Supplies,2289.85,17,Active
+ORD-01966,28-11-2023,Meena Krishnan,North,Electronics,13056.11,1,Active
+ORD-01792,27-06-2024,Amit Kumar,South,Furniture,9886.43,8,Active
+ORD-01011,12-10-2024,Deepa Pillai,East,Electronics,8022.39,4,Active
+ORD-01399,27-09-2024,Divya Kaur,North,Furniture,8091.95,7,Active
+ORD-02421,03-09-2023,Harsh Shah,West,Furniture,11111.32,6,Active
+ORD-02385,04-09-2024,Yash Agarwal,North,Furniture,2676.53,6,Active
+ORD-01448,06-12-2024,Pooja Iyer,North,Furniture,3113.9,5,Active
+ORD-02251,11-11-2024,Sarita Bansal,West,Electronics,40590.8,3,Active
+ORD-02209,30-03-2023,Manish Srivastava,East,Electronics,7709.08,4,Active
+ORD-01487,14-04-2024,Arjun Reddy,South,Office Supplies,510.62,27,Active
+ORD-01494,01-06-2023,Arjun Reddy,South,Furniture,0,1,Cancelled
+ORD-02082,15-12-2024,Nidhi Bhatt,South,Office Supplies,3354.23,6,Active
+ORD-01777,19-04-2024,Priya Patel,East,Electronics,3276.89,4,Active
+ORD-01204,29-03-2024,Kiran Nambiar,West,Furniture,0,4,Returned
+ORD-01990,01-03-2024,Deepa Pillai,East,Office Supplies,619.27,8,Active
+ORD-02133,30-08-2023,Kiran Nambiar,West,Electronics,8541.82,3,Active
+ORD-01795,14-07-2023,Asha Kulkarni,South,Office Supplies,581.75,10,Active
+ORD-01439,19-05-2023,Sunita Menon,East,Furniture,0,3,Cancelled
+ORD-02021,24-03-2023,Sarita Bansal,West,Office Supplies,0,17,Cancelled
+ORD-01733,30-11-2024,Neha Tiwari,North,Electronics,11180.87,2,Active
+ORD-02164,05-01-2024,Kiran Nambiar,West,Furniture,11148.89,5,Active
+ORD-01266,09-06-2024,Deepa Pillai,East,Electronics,38311.18,4,Active
+ORD-02454,11-06-2024,Gaurav Mishra,South,Electronics,28512.19,4,Active
+ORD-01220,28-08-2024,Vikram Singh,West,Electronics,14520.03,4,Active
+ORD-01538,01-04-2024,Priya Patel,East,Furniture,4962.19,5,Active
+ORD-01430,21-06-2023,Arjun Reddy,South,Electronics,13710.37,3,Active
+ORD-02288,28-11-2024,Padma Subramaniam,West,Electronics,42254.75,1,Active
+ORD-01306,12-11-2023,Rohan Mehta,South,Furniture,0,4,Cancelled
+ORD-02427,14-03-2024,Manish Srivastava,East,Office Supplies,3172.95,24,Active
+ORD-01993,29-10-2024,Nidhi Bhatt,South,Furniture,0,8,Cancelled
+ORD-01281,08-11-2023,Deepa Pillai,East,Office Supplies,827.87,17,Active
+ORD-01071,23-06-2023,Arjun Reddy,South,Office Supplies,2233.65,11,Active
+ORD-01146,10-11-2024,Amit Kumar,South,Electronics,6380.09,5,Active
+ORD-01806,20-06-2023,Sanjay Joshi,West,Office Supplies,1214.42,6,Active
+ORD-01181,03-12-2023,Amit Kumar,South,Office Supplies,59.78,28,Active
+ORD-01651,18-02-2024,Arjun Reddy,South,Electronics,30119.38,3,Active
+ORD-01002,12-07-2024,Arjun Reddy,South,Electronics,2117.04,2,Active
+ORD-01983,03-07-2024,Amit Kumar,South,Electronics,0,1,Cancelled
+ORD-01434,03-02-2023,Yash Agarwal,North,Electronics,0,1,Returned
+ORD-01069,21-10-2023,Aakash Bhat,South,Office Supplies,2142.98,11,Active
+ORD-01024,03-09-2023,Vikram Singh,West,Office Supplies,0,3,Cancelled
+ORD-02420,29-04-2024,Gaurav Mishra,South,Furniture,6862.9,6,Active
+ORD-02424,12-09-2023,Harsh Shah,West,Office Supplies,2323.12,16,Active
+ORD-02476,23-04-2023,Padma Subramaniam,West,Furniture,11631.14,6,Active
+ORD-01829,29-03-2023,Rahul Verma,West,Electronics,42743.19,2,Active
+ORD-01441,26-05-2023,Ajay Rastogi,North,Office Supplies,1479.08,15,Active
+ORD-01371,07-01-2023,Sunita Menon,East,Office Supplies,848.45,23,Active
+ORD-01064,14-07-2023,Meena Krishnan,West,Electronics,0,5,Cancelled
+ORD-01991,11-02-2023,Pooja Iyer,North,Office Supplies,2162.92,25,Active
+ORD-01616,18-05-2024,Lakshmi Venkat,North,Furniture,1191.21,4,Active
+ORD-02270,03-03-2023,Manish Srivastava,East,Furniture,15158.93,7,Active
+ORD-01582,20-11-2023,Sanjay Joshi,West,Furniture,6187.54,3,Active
+ORD-02322,02-06-2023,Lakshmi Venkat,North,Office Supplies,2794.86,28,Active
+ORD-01219,04-10-2024,Lakshmi Venkat,North,Electronics,21526.31,3,Active
+ORD-02308,20-07-2023,Neha Tiwari,North,Electronics,35508.66,3,Active
+ORD-01150,14-05-2024,Dev Mathur,North,Electronics,28697.32,3,Active
+ORD-02092,21-10-2024,Rajesh Choudhury,South,Office Supplies,2130.92,13,Active
+ORD-01160,23-01-2023,Rajesh Choudhury,South,Office Supplies,0,25,Returned
+ORD-01559,17-07-2023,Neha Tiwari,North,Electronics,2261.74,1,Active
+ORD-01040,18-11-2023,Vikram Singh,West,Office Supplies,3221.89,17,Active
+ORD-01846,13-11-2023,Asha Kulkarni,South,Furniture,17923.64,3,Active
+ORD-02292,20-08-2023,Kiran Nambiar,West,Electronics,9501.96,3,Active
+ORD-02277,23-07-2024,Geeta Pandey,West,Office Supplies,329.96,29,Active
+ORD-02302,13-01-2023,Tarun Mukerjee,East,Office Supplies,2773.49,7,Active
+ORD-01928,29-10-2023,Vikram Singh,West,Office Supplies,0,1,Cancelled
+ORD-02063,18-08-2024,Vikram Singh,West,Furniture,15846.22,3,Active
+ORD-01498,03-12-2024,Arjun Reddy,South,Furniture,16538.49,2,Active
+ORD-01619,31-10-2024,Rohan Mehta,South,Furniture,934.23,1,Active
+ORD-02306,13-11-2023,Tarun Mukerjee,East,Furniture,17473.8,3,Active
+ORD-01325,04-08-2024,Tarun Mukerjee,East,Furniture,5336.74,8,Active
+ORD-01968,27-03-2024,Kavya Nair,North,Electronics,27775.34,2,Active
+ORD-01337,14-07-2024,Varun Naik,North,Office Supplies,566.99,11,Active
+ORD-01412,26-01-2023,Manish Srivastava,East,Furniture,16593.69,2,Active
+ORD-02219,01-03-2024,Ananya Sharma,North,Furniture,6341.37,3,Active
+ORD-01444,14-04-2024,Smita Patil,East,Office Supplies,1422.12,14,Active
+ORD-02481,20-12-2023,Dev Mathur,East,Furniture,8740.46,3,Active
+ORD-02064,17-06-2023,Vikram Singh,West,Furniture,11561.57,6,Active
+ORD-02359,07-02-2024,Priya Patel,East,Electronics,12900.91,5,Active
+ORD-01185,04-04-2024,Harsh Shah,West,Electronics,20778.64,2,Active
+ORD-01953,02-05-2024,Vivek Chopra,West,Office Supplies,0,22,Cancelled
+ORD-02248,15-02-2023,Sunita Menon,East,Furniture,10314.02,6,Active
+ORD-01477,20-07-2024,Sunita Menon,East,Electronics,19198.54,3,Active
+ORD-02188,18-09-2023,Nidhi Bhatt,South,Office Supplies,106.13,24,Active
+ORD-01994,10-05-2023,Aakash Bhat,South,Furniture,9558.64,7,Active
+ORD-01998,03-10-2024,Aakash Bhat,South,Electronics,0,2,Cancelled
+ORD-01478,21-03-2023,Ajay Rastogi,North,Office Supplies,2372.97,2,Active
+ORD-01358,05-12-2023,Arjun Reddy,South,Furniture,1936.61,4,Active
+ORD-01899,26-07-2023,Arjun Reddy,South,Electronics,36116.92,5,Active
+ORD-02147,14-05-2023,Tarun Mukerjee,East,Furniture,8291.37,3,Active
+ORD-02448,05-02-2024,Rajesh Choudhury,East,Furniture,0,4,Cancelled
+ORD-01398,23-09-2024,Neha Tiwari,North,Electronics,14265.88,4,Active
+ORD-02409,12-11-2023,Sunita Menon,East,Office Supplies,3049.49,4,Active
+ORD-01075,20-04-2023,Kiran Nambiar,West,Office Supplies,1836.95,2,Active
+ORD-02457,31-03-2024,Harsh Shah,North,Electronics,6194.68,5,Active
+ORD-01957,04-10-2023,Nikhil Desai,South,Furniture,11881.88,7,Active
+ORD-01163,06-11-2024,Pooja Iyer,North,Office Supplies,2279.88,10,Active
+ORD-02231,12-10-2024,Deepa Pillai,East,Electronics,0,3,Cancelled
+ORD-02124,21-10-2023,Deepa Pillai,East,Office Supplies,864.65,8,Active
+ORD-01108,20-12-2024,Bhavna Dubey,South,Furniture,4380.52,4,Active
+ORD-01159,31-08-2023,Divya Kaur,North,Office Supplies,1070.76,23,Active
+ORD-02327,13-08-2023,Neha Tiwari,North,Electronics,18298.78,3,Active
+ORD-02450,08-11-2023,Bhavna Dubey,South,Office Supplies,524.59,23,Active
+ORD-01717,01-04-2023,Kavya Nair,North,Furniture,0,1,Cancelled
+ORD-01251,28-12-2023,Suresh Rao,West,Electronics,30165.21,1,Active
+ORD-01759,11-02-2024,Asha Kulkarni,South,Electronics,5393.64,5,Active
+ORD-01059,26-04-2024,Riya Malhotra,East,Furniture,6488.95,4,Active
+ORD-01660,15-09-2023,Padma Subramaniam,South,Furniture,7515.1,8,Active
+ORD-02235,04-10-2024,Dev Mathur,East,Electronics,0,3,Cancelled
+ORD-02185,25-10-2023,Bhavna Dubey,South,Furniture,0,3,Cancelled
+ORD-02482,10-01-2023,Varun Naik,North,Office Supplies,485.97,13,Active
+ORD-01029,21-07-2024,Riya Malhotra,East,Electronics,3937.89,1,Active
+ORD-01461,30-10-2023,Vikram Singh,West,Electronics,22674.04,1,Active
+ORD-01519,20-09-2024,Smita Patil,East,Office Supplies,2859.87,13,Active
+ORD-02325,15-06-2024,Bhavna Dubey,South,Office Supplies,1339.88,23,Active
+ORD-01903,15-11-2023,Priya Patel,East,Office Supplies,3057.97,11,Active
+ORD-01086,19-06-2023,Bhavna Dubey,South,Office Supplies,1892.73,30,Active
+ORD-02490,15-12-2024,Rahul Verma,West,Office Supplies,0,27,Returned
+ORD-01845,31-07-2023,Pooja Iyer,North,Office Supplies,2810.36,28,Active
+ORD-01640,08-07-2024,Priya Patel,East,Furniture,0,4,Returned
+ORD-02271,09-10-2024,Aakash Bhat,South,Office Supplies,0,6,Cancelled
+ORD-01376,29-12-2023,Nikhil Desai,South,Electronics,17288.88,4,Active
+ORD-02260,22-06-2023,Tara Saxena,East,Furniture,13898.99,3,Active
+ORD-01929,27-07-2024,Smita Patil,East,Furniture,15622.53,4,Active
+ORD-01697,20-02-2024,Tarun Mukerjee,East,Office Supplies,0,24,Cancelled
+ORD-01635,19-11-2024,Pooja Iyer,North,Office Supplies,3414.37,6,Active
+ORD-01419,22-12-2024,Aakash Bhat,South,Office Supplies,2840.12,3,Active
+ORD-02187,09-06-2024,Sneha Gupta,East,Furniture,1972.37,5,Active
+ORD-02069,16-06-2023,Sneha Gupta,East,Office Supplies,812.84,7,Active
+ORD-01838,23-07-2023,Varun Naik,North,Office Supplies,3245.91,1,Active
+ORD-01872,20-05-2024,Suresh Rao,West,Office Supplies,1691.21,14,Active
+ORD-02191,29-09-2023,Gaurav Mishra,South,Electronics,0,1,Returned
+ORD-01583,11-10-2024,Vikram Singh,East,Electronics,34444.74,2,Active
+ORD-01127,06-07-2024,Geeta Pandey,West,Office Supplies,0,14,Cancelled
+ORD-01144,26-11-2023,Neha Tiwari,North,Electronics,0,2,Returned
+ORD-02503,15-03-2024,Deepa Pillai,South,Furniture,0,0,Active
+ORD-01453,16-05-2023,Manish Srivastava,West,Electronics,33099.74,1,Active
+ORD-01782,15-10-2024,Vivek Chopra,West,Electronics,38973.67,2,Active
+ORD-01263,23-03-2023,Lakshmi Venkat,North,Furniture,8192.71,7,Active
+ORD-01169,15-01-2023,Meena Krishnan,North,Furniture,6823.97,5,Active
+ORD-02345,06-10-2024,Tarun Mukerjee,East,Office Supplies,3040.96,13,Active
+ORD-02100,06-02-2023,Priya Patel,East,Office Supplies,0,10,Cancelled
+ORD-01791,10-07-2024,Smita Patil,East,Furniture,5173.24,3,Active
+ORD-01728,14-12-2023,Bhavna Dubey,South,Office Supplies,3023.98,16,Active
+ORD-01184,29-09-2023,Vikram Singh,West,Furniture,9611.71,2,Active
+ORD-01073,01-05-2024,Sarita Bansal,West,Electronics,20929.39,5,Active
+ORD-02184,18-08-2023,Amit Kumar,South,Office Supplies,2221.98,17,Active
+ORD-02272,30-06-2024,Ajay Rastogi,North,Furniture,0,3,Cancelled
+ORD-02118,29-02-2024,Rajesh Choudhury,South,Office Supplies,1613.64,25,Active
+ORD-01591,18-02-2024,Rohan Mehta,South,Office Supplies,0,7,Cancelled
+ORD-02047,26-02-2023,Tarun Mukerjee,East,Office Supplies,0,26,Returned
+ORD-01070,28-03-2024,Yash Agarwal,North,Office Supplies,0,29,Cancelled
+ORD-01905,16-11-2023,Aakash Bhat,South,Electronics,13466.28,5,Active
+ORD-02130,07-08-2024,Varun Naik,North,Office Supplies,0,19,Returned
+ORD-02198,08-03-2024,Rohan Mehta,South,Electronics,33454.13,4,Active
+ORD-02024,29-07-2023,Pooja Iyer,North,Electronics,0,4,Cancelled
+ORD-02026,27-11-2024,Kiran Nambiar,West,Electronics,17278.37,4,Active
+ORD-01097,14-03-2024,Harsh Shah,East,Electronics,38351.24,4,Active
+ORD-02489,04-06-2024,Pooja Iyer,North,Office Supplies,2413.67,22,Active
+ORD-02440,09-01-2024,Pooja Iyer,North,Office Supplies,2088.18,4,Active
+ORD-01801,25-07-2024,Sunita Menon,East,Office Supplies,251.14,20,Active
+ORD-01817,20-03-2024,Sunita Menon,East,Electronics,0,2,Returned
+ORD-02505,15-03-2024,Geeta Pandey,West,Office Supplies,0,0,Active
+ORD-01942,24-02-2023,Gaurav Mishra,South,Electronics,21524,5,Active
+ORD-02107,20-12-2023,Smita Patil,East,Electronics,30026.81,2,Active
+ORD-01147,13-04-2023,Yash Agarwal,North,Furniture,571.65,3,Active
+ORD-01016,14-03-2024,Nidhi Bhatt,South,Electronics,44881.8,2,Active
+ORD-02224,18-06-2023,Kiran Nambiar,North,Office Supplies,3232.69,5,Active
+ORD-01926,30-07-2023,Lakshmi Venkat,North,Office Supplies,1100.7,30,Active
+ORD-02294,11-09-2023,Sneha Gupta,East,Furniture,15035.56,6,Active
+ORD-01643,25-02-2023,Ananya Sharma,North,Electronics,28228.83,4,Active
+ORD-01581,04-06-2023,Pooja Iyer,North,Furniture,7542.7,8,Active
+ORD-02135,26-04-2023,Lakshmi Venkat,North,Furniture,12384.47,5,Active
+ORD-01077,29-03-2024,Sarita Bansal,West,Office Supplies,1522.26,30,Active
+ORD-02312,30-09-2024,Aakash Bhat,South,Office Supplies,2700.8,27,Active
+ORD-01626,17-09-2024,Neha Tiwari,North,Furniture,0,4,Cancelled
+ORD-01214,22-06-2023,Kavya Nair,North,Electronics,0,2,Returned
+ORD-01245,21-05-2023,Priya Patel,East,Furniture,0,3,Returned
+ORD-01397,10-05-2024,Kavya Nair,North,Electronics,32663.76,4,Active
+ORD-01700,06-07-2023,Sarita Bansal,West,Furniture,3268.67,6,Active
+ORD-01793,15-10-2024,Varun Naik,North,Electronics,39825.61,5,Active
+ORD-01730,27-02-2024,Smita Patil,East,Electronics,31776.18,3,Active
+ORD-01041,28-02-2023,Varun Naik,North,Electronics,0,1,Cancelled
+ORD-01442,10-10-2024,Arjun Reddy,South,Office Supplies,1009.88,30,Active
+ORD-01639,30-11-2024,Meena Krishnan,North,Electronics,31324.29,3,Active
+ORD-01369,22-06-2023,Smita Patil,East,Office Supplies,1935.58,6,Active
+ORD-02261,22-02-2024,Deepa Pillai,East,Electronics,2000.97,1,Active
+ORD-02163,30-04-2023,Lakshmi Venkat,South,Furniture,0,5,Returned
+ORD-01135,25-05-2024,Yash Agarwal,North,Electronics,12603.89,2,Active
+ORD-01805,19-04-2023,Ajay Rastogi,North,Furniture,12735.14,7,Active
+ORD-02305,09-06-2024,Smita Patil,East,Office Supplies,2725.46,5,Active
+ORD-01350,15-02-2023,Rajesh Choudhury,South,Office Supplies,0,28,Returned
+ORD-01891,23-10-2024,Pooja Iyer,North,Office Supplies,1639.13,28,Active
+ORD-01536,29-04-2023,Vivek Chopra,West,Furniture,8957.01,5,Active
+ORD-01668,04-08-2023,Smita Patil,East,Office Supplies,2987.53,5,Active
+ORD-02410,09-08-2024,Smita Patil,East,Furniture,0,7,Cancelled
+ORD-01747,20-11-2023,Geeta Pandey,West,Office Supplies,3011.83,2,Active
+ORD-02501,15-03-2024,Priya Patel,South,Furniture,0,0,Active
+ORD-01514,21-01-2023,Asha Kulkarni,South,Furniture,16546.76,4,Active
+ORD-01165,01-03-2024,Sanjay Joshi,West,Office Supplies,3073.79,12,Active
+ORD-01898,07-04-2024,Vivek Chopra,West,Furniture,3397.73,6,Active
+ORD-02098,09-07-2024,Gaurav Mishra,South,Office Supplies,1935.84,25,Active
+ORD-01145,25-02-2024,Priya Patel,East,Furniture,12782.53,7,Active
+ORD-01670,03-08-2024,Vikram Singh,West,Office Supplies,1641.36,18,Active
+ORD-01698,08-11-2024,Tara Saxena,East,Electronics,20654.79,4,Active
+ORD-01918,15-02-2024,Nidhi Bhatt,South,Office Supplies,890.73,6,Active
+ORD-01182,14-05-2023,Dev Mathur,East,Electronics,5658.74,1,Active
+ORD-02291,04-04-2024,Lakshmi Venkat,South,Furniture,0,1,Cancelled
+ORD-01736,07-01-2023,Dev Mathur,East,Furniture,6870.18,6,Active
+ORD-02078,24-08-2024,Neha Tiwari,North,Furniture,0,3,Returned
+ORD-01641,24-10-2024,Padma Subramaniam,West,Office Supplies,0,26,Cancelled
+ORD-02470,08-09-2024,Padma Subramaniam,West,Furniture,5209.9,7,Active
+ORD-02475,24-01-2024,Rohan Mehta,South,Electronics,4226.59,1,Active
+ORD-01699,24-06-2023,Riya Malhotra,East,Office Supplies,0,19,Returned
+ORD-01156,19-09-2023,Ananya Sharma,North,Furniture,16251.41,3,Active
+ORD-01166,28-05-2024,Nikhil Desai,South,Furniture,16478.67,8,Active
+ORD-01298,29-07-2024,Neha Tiwari,North,Furniture,0,8,Returned
+ORD-01039,14-07-2023,Tara Saxena,East,Electronics,26399.77,5,Active
+ORD-02445,08-12-2023,Amit Kumar,South,Electronics,0,2,Cancelled
+ORD-01094,15-11-2023,Sneha Gupta,East,Furniture,10491.6,7,Active
+ORD-01601,16-11-2024,Geeta Pandey,West,Electronics,0,1,Cancelled
+ORD-02022,08-01-2024,Vikram Singh,West,Furniture,8536.75,1,Active
+ORD-01392,17-03-2024,Yash Agarwal,North,Office Supplies,1457.75,1,Active
+ORD-01816,19-10-2024,Vivek Chopra,West,Electronics,35281.39,3,Active
+ORD-01602,14-04-2023,Meena Krishnan,North,Furniture,17799.39,5,Active
+ORD-02220,30-09-2023,Harsh Shah,West,Furniture,6683.39,4,Active
+ORD-02335,30-11-2024,Nikhil Desai,South,Office Supplies,0,28,Returned
+ORD-01794,27-09-2024,Suresh Rao,West,Electronics,29896.39,5,Active
+ORD-01827,02-11-2024,Rohan Mehta,South,Electronics,44454.21,5,Active
+ORD-01515,15-12-2023,Sanjay Joshi,West,Furniture,1354.14,3,Active
+ORD-01104,13-06-2024,Neha Tiwari,North,Office Supplies,0,18,Returned
+ORD-01516,22-12-2024,Amit Kumar,South,Office Supplies,3019.31,3,Active
+ORD-01760,28-03-2023,Divya Kaur,North,Electronics,33401.62,4,Active
+ORD-02358,18-03-2024,Bhavna Dubey,South,Office Supplies,682.88,19,Active
+ORD-02257,23-12-2024,Nidhi Bhatt,South,Office Supplies,2143.65,13,Active
+ORD-01340,26-07-2024,Bhavna Dubey,South,Furniture,13102.06,7,Active
+ORD-01100,29-08-2024,Nikhil Desai,South,Electronics,37518.31,1,Active
+ORD-02043,13-07-2024,Varun Naik,North,Office Supplies,1069.67,29,Active
+ORD-01720,19-07-2023,Priya Patel,East,Office Supplies,1829.56,8,Active
+ORD-01133,01-04-2023,Lakshmi Venkat,North,Electronics,43682.16,4,Active
+ORD-02150,24-10-2024,Sarita Bansal,West,Electronics,43856.44,2,Active
+ORD-01744,06-04-2024,Sanjay Joshi,West,Office Supplies,2416.74,27,Active
+ORD-01401,18-11-2023,Sanjay Joshi,West,Furniture,5458.63,8,Active
+ORD-01939,17-08-2024,Manish Srivastava,East,Electronics,0,5,Returned
+ORD-01944,03-09-2024,Vivek Chopra,West,Office Supplies,948.53,21,Active
+ORD-02199,27-04-2024,Rohan Mehta,South,Office Supplies,887.07,10,Active
+ORD-01513,13-11-2023,Sanjay Joshi,West,Electronics,3282.62,5,Active
+ORD-01408,15-10-2024,Arjun Reddy,South,Electronics,29865.99,3,Active
+ORD-02056,04-08-2024,Pooja Iyer,North,Furniture,5423.5,8,Active
+ORD-01770,23-10-2024,Divya Kaur,North,Electronics,12423.73,4,Active
+ORD-01366,30-05-2023,Rohan Mehta,South,Office Supplies,2048.04,14,Active
+ORD-01009,24-10-2023,Arjun Reddy,South,Electronics,17601.58,4,Active
+ORD-01962,03-11-2024,Aakash Bhat,South,Office Supplies,470.18,4,Active
+ORD-01096,05-11-2023,Tarun Mukerjee,East,Office Supplies,2750.09,12,Active
+ORD-01323,08-02-2023,Sanjay Joshi,West,Electronics,42079.38,1,Active
+ORD-02174,07-06-2023,Rohan Mehta,South,Office Supplies,2325.41,15,Active
+ORD-01047,10-07-2024,Vivek Chopra,West,Office Supplies,1874.85,22,Active
+ORD-01496,23-07-2024,Padma Subramaniam,West,Furniture,2103.76,3,Active
+ORD-02255,06-08-2024,Asha Kulkarni,South,Furniture,9196.71,1,Active
+ORD-02159,24-07-2024,Vikram Singh,South,Furniture,16375.61,1,Active
+ORD-01046,16-05-2023,Smita Patil,East,Electronics,17133.1,2,Active
+ORD-01579,24-02-2023,Nidhi Bhatt,South,Office Supplies,295.69,29,Active
+ORD-01584,12-06-2023,Geeta Pandey,West,Electronics,6519.74,4,Active
+ORD-01088,06-07-2023,Vikram Singh,West,Furniture,4046.39,6,Active
+ORD-01276,27-01-2023,Harsh Shah,West,Furniture,8573.08,3,Active
+ORD-02384,25-05-2024,Tara Saxena,East,Furniture,3917.62,1,Active
+ORD-01034,31-10-2024,Sneha Gupta,East,Electronics,11790.61,2,Active
+ORD-01952,14-08-2024,Smita Patil,East,Electronics,3121.53,4,Active
+ORD-02115,01-10-2024,Arjun Reddy,South,Office Supplies,376.83,11,Active
+ORD-02417,31-01-2023,Nidhi Bhatt,South,Furniture,12208.64,2,Active
+ORD-01565,29-11-2024,Ananya Sharma,North,Electronics,29413.82,5,Active
+ORD-01193,04-12-2024,Manish Srivastava,North,Electronics,19888.94,3,Active
+ORD-02256,05-11-2024,Dev Mathur,East,Electronics,12953.34,2,Active
+ORD-02225,01-03-2023,Asha Kulkarni,South,Furniture,0,5,Cancelled
+ORD-01775,10-07-2023,Sneha Gupta,East,Electronics,32411.66,1,Active
+ORD-01012,17-10-2024,Padma Subramaniam,West,Furniture,15218.48,1,Active
+ORD-01612,13-08-2024,Ajay Rastogi,North,Office Supplies,3062.35,17,Active
+ORD-02338,22-08-2023,Riya Malhotra,East,Electronics,21770.17,5,Active
+ORD-01067,17-02-2024,Tara Saxena,East,Electronics,0,4,Cancelled
+ORD-01110,10-05-2024,Nikhil Desai,South,Office Supplies,2108.93,4,Active
+ORD-01555,18-05-2023,Vivek Chopra,West,Furniture,14000.35,6,Active
+ORD-01167,13-12-2023,Rahul Verma,West,Electronics,0,2,Cancelled
+ORD-01289,28-07-2023,Gaurav Mishra,South,Furniture,0,6,Cancelled
+ORD-01246,23-12-2024,Manish Srivastava,East,Electronics,40838.9,1,Active
+ORD-01029,21-07-2024,Riya Malhotra,East,Electronics,3937.89,1,Active
+ORD-01344,24-03-2023,Dev Mathur,East,Furniture,2399.81,7,Active
+ORD-01867,25-12-2024,Divya Kaur,North,Office Supplies,2161.65,6,Active
+ORD-01798,19-10-2024,Divya Kaur,North,Office Supplies,2202.7,19,Active
+ORD-02143,09-03-2023,Smita Patil,East,Office Supplies,2856.33,24,Active
+ORD-02146,24-04-2023,Deepa Pillai,East,Office Supplies,3395.34,27,Active
+ORD-02001,17-04-2023,Vikram Singh,West,Electronics,7785.62,1,Active
+ORD-02425,28-02-2024,Neha Tiwari,East,Electronics,0,1,Cancelled
+ORD-01112,16-02-2023,Vikram Singh,West,Office Supplies,0,21,Returned
+ORD-01277,30-03-2023,Kavya Nair,North,Office Supplies,2530.1,17,Active
+ORD-01200,26-12-2023,Ananya Sharma,North,Electronics,25831.39,4,Active
+ORD-02422,13-04-2023,Ananya Sharma,North,Office Supplies,1436.24,27,Active
+ORD-01663,02-01-2024,Varun Naik,North,Office Supplies,1089.66,3,Active
+ORD-01381,05-08-2023,Ajay Rastogi,North,Electronics,41647.84,3,Active
+ORD-01823,15-12-2024,Pooja Iyer,North,Furniture,10199.54,8,Active
+ORD-01056,27-07-2024,Sunita Menon,East,Office Supplies,583.21,30,Active
+ORD-01169,15-01-2023,Meena Krishnan,North,Furniture,6823.97,5,Active
+ORD-02340,12-07-2023,Kiran Nambiar,West,Office Supplies,1491.02,15,Active
+ORD-02204,25-10-2024,Sunita Menon,East,Electronics,22669.66,3,Active
+ORD-02201,22-05-2024,Nidhi Bhatt,South,Office Supplies,3496.64,2,Active
+ORD-01658,07-08-2023,Kiran Nambiar,West,Electronics,24568.74,4,Active
+ORD-01669,08-07-2023,Riya Malhotra,East,Furniture,0,3,Cancelled
+ORD-01321,21-02-2024,Manish Srivastava,East,Electronics,34211.27,3,Active
+ORD-01489,26-10-2023,Meena Krishnan,North,Furniture,12702.84,6,Active
+ORD-01480,15-11-2023,Lakshmi Venkat,North,Furniture,441.05,4,Active
+ORD-01710,05-12-2024,Lakshmi Venkat,North,Electronics,7641.21,5,Active
+ORD-02281,15-10-2023,Smita Patil,East,Office Supplies,0,26,Cancelled
+ORD-01080,20-10-2023,Suresh Rao,West,Furniture,16106.57,2,Active
+ORD-01862,13-06-2024,Amit Kumar,South,Office Supplies,1608.36,24,Active
+ORD-01620,10-09-2024,Sarita Bansal,West,Office Supplies,0,21,Cancelled
+ORD-02273,23-07-2024,Nikhil Desai,South,Electronics,0,3,Cancelled
+ORD-02000,08-01-2024,Tara Saxena,East,Furniture,6217.01,8,Active
+ORD-01764,31-07-2024,Kiran Nambiar,West,Office Supplies,1891.56,30,Active
+ORD-02394,04-01-2024,Rajesh Choudhury,South,Furniture,0,7,Returned
+ORD-01189,22-08-2024,Padma Subramaniam,West,Furniture,17904.91,5,Active
+ORD-01402,06-09-2023,Lakshmi Venkat,North,Furniture,6760.78,4,Active
+ORD-01051,11-10-2024,Kiran Nambiar,West,Electronics,956.72,2,Active
+ORD-01058,16-11-2024,Suresh Rao,West,Office Supplies,422.93,28,Active
+ORD-01634,20-07-2024,Aakash Bhat,South,Office Supplies,2514.63,22,Active
+ORD-01411,05-12-2024,Ajay Rastogi,North,Furniture,7223.07,3,Active
+ORD-01217,19-03-2023,Sanjay Joshi,West,Office Supplies,1754.7,25,Active
+ORD-01761,10-05-2023,Pooja Iyer,North,Electronics,2062.85,3,Active
+ORD-01129,22-01-2023,Nikhil Desai,South,Electronics,21596.14,4,Active
+ORD-01974,20-08-2023,Ananya Sharma,North,Office Supplies,2872.02,16,Active
+ORD-02002,11-06-2024,Rahul Verma,South,Office Supplies,1584.63,19,Active
+ORD-02241,02-03-2024,Deepa Pillai,East,Electronics,22226.59,4,Active
+ORD-01535,10-04-2023,Rohan Mehta,South,Office Supplies,1056.75,3,Active
+ORD-01095,23-07-2023,Kavya Nair,North,Office Supplies,0,23,Returned
+ORD-01997,26-06-2024,Sneha Gupta,East,Office Supplies,0,15,Returned
+ORD-01279,13-06-2024,Smita Patil,East,Office Supplies,0,6,Returned
+ORD-01322,20-10-2023,Vikram Singh,West,Electronics,29631.6,2,Active
+ORD-02030,22-04-2023,Deepa Pillai,East,Office Supplies,560.44,5,Active
+ORD-01466,19-12-2024,Rajesh Choudhury,South,Office Supplies,1904.91,5,Active
+ORD-01627,13-12-2023,Sneha Gupta,East,Electronics,41756.89,5,Active
+ORD-01529,14-06-2023,Kavya Nair,North,Electronics,15737.42,5,Active
+ORD-01931,21-03-2024,Dev Mathur,East,Electronics,21789.32,2,Active
+ORD-01868,17-07-2024,Divya Kaur,South,Furniture,10309.2,3,Active
+ORD-01812,07-12-2024,Nikhil Desai,South,Office Supplies,1969.31,30,Active
+ORD-01023,27-06-2024,Ananya Sharma,North,Furniture,644.74,6,Active
+ORD-01329,08-04-2023,Sanjay Joshi,West,Furniture,6027.75,4,Active
+ORD-02031,17-06-2024,Rohan Mehta,South,Office Supplies,1917.95,5,Active
+ORD-01356,19-08-2023,Vivek Chopra,West,Electronics,36415.31,1,Active
+ORD-01066,18-11-2023,Rahul Verma,West,Furniture,9276.07,7,Active
+ORD-02083,24-01-2024,Kiran Nambiar,West,Electronics,18814.95,3,Active
+ORD-01320,28-04-2024,Sneha Gupta,East,Electronics,1029.02,5,Active
+ORD-01228,04-12-2023,Sneha Gupta,East,Furniture,5329.4,3,Active
+ORD-02142,27-02-2024,Gaurav Mishra,South,Electronics,37238.52,3,Active
+ORD-02405,28-11-2024,Amit Kumar,South,Office Supplies,2045.28,22,Active
+ORD-02391,16-07-2024,Aakash Bhat,South,Electronics,19639.8,4,Active
+ORD-01691,07-01-2023,Varun Naik,North,Furniture,3231.22,2,Active
+ORD-01843,17-06-2024,Sarita Bansal,West,Office Supplies,834.63,8,Active
+ORD-02179,02-02-2024,Rajesh Choudhury,South,Office Supplies,581.76,10,Active
+ORD-01614,10-11-2024,Divya Kaur,North,Office Supplies,3127.61,20,Active
+ORD-01287,12-07-2024,Tara Saxena,East,Furniture,8848.12,7,Active
+ORD-01963,11-09-2024,Pooja Iyer,North,Office Supplies,2002.94,6,Active
+ORD-01374,21-10-2023,Rohan Mehta,South,Office Supplies,2375.41,26,Active
+ORD-01307,22-02-2023,Nidhi Bhatt,South,Office Supplies,0,20,Returned
+ORD-01853,30-12-2024,Harsh Shah,West,Furniture,8998.59,3,Active
+ORD-01026,01-05-2024,Padma Subramaniam,West,Office Supplies,3059.89,14,Active
+ORD-01158,14-09-2023,Bhavna Dubey,South,Electronics,44972.31,4,Active
+ORD-01502,14-10-2023,Yash Agarwal,North,Electronics,27943.51,5,Active
+ORD-01162,27-12-2023,Riya Malhotra,East,Office Supplies,0,25,Cancelled
+ORD-01290,20-12-2023,Rajesh Choudhury,South,Furniture,9415.15,2,Active
+ORD-01749,09-12-2023,Meena Krishnan,North,Office Supplies,1973.35,26,Active
+ORD-02132,17-11-2023,Gaurav Mishra,South,Office Supplies,0,24,Returned
+ORD-01062,25-09-2023,Sanjay Joshi,West,Furniture,977.15,7,Active
+ORD-01324,22-05-2024,Sanjay Joshi,West,Furniture,15818.35,1,Active
+ORD-01977,24-10-2023,Neha Tiwari,North,Electronics,43564.07,2,Active
+ORD-01152,20-06-2023,Vivek Chopra,West,Electronics,15137.36,1,Active
+ORD-02205,15-12-2024,Kiran Nambiar,East,Office Supplies,713.09,12,Active
+ORD-01111,31-10-2023,Riya Malhotra,East,Furniture,550.43,3,Active
+ORD-02396,04-07-2024,Amit Kumar,South,Electronics,12172.29,4,Active
+ORD-01870,01-04-2024,Tara Saxena,East,Electronics,40515.55,2,Active
+ORD-01054,14-01-2024,Nidhi Bhatt,South,Furniture,2555.79,5,Active
+ORD-02218,07-06-2023,Harsh Shah,West,Electronics,6235.87,2,Active
+ORD-02229,28-03-2023,Priya Patel,East,Furniture,13134.25,3,Active
+ORD-02356,12-08-2024,Priya Patel,East,Furniture,11739.49,8,Active
+ORD-01283,21-09-2024,Dev Mathur,East,Office Supplies,631.79,19,Active
+ORD-02190,01-11-2023,Lakshmi Venkat,North,Furniture,13705.17,8,Active
+ORD-02161,26-07-2024,Priya Patel,East,Furniture,3306.64,8,Active
+ORD-01432,07-06-2024,Rahul Verma,West,Furniture,14019.5,6,Active
+ORD-01497,13-01-2023,Vikram Singh,West,Electronics,6577.61,4,Active
+ORD-01863,26-04-2023,Sanjay Joshi,West,Office Supplies,1935.1,13,Active
+ORD-01296,31-10-2024,Manish Srivastava,East,Electronics,38245.02,4,Active
+ORD-01943,10-08-2024,Gaurav Mishra,South,Furniture,0,1,Cancelled
+ORD-02279,21-01-2024,Tarun Mukerjee,East,Electronics,37890.24,1,Active
+ORD-02200,06-02-2024,Vikram Singh,West,Electronics,28664.12,4,Active
+ORD-01740,14-06-2024,Bhavna Dubey,South,Electronics,1322.44,2,Active
+ORD-01716,03-02-2024,Ananya Sharma,North,Electronics,21647.75,5,Active
+ORD-01123,28-08-2023,Meena Krishnan,North,Office Supplies,2084.77,26,Active
+ORD-02162,24-04-2024,Pooja Iyer,North,Office Supplies,1879.96,5,Active
+ORD-02282,15-08-2023,Riya Malhotra,East,Furniture,0,8,Cancelled
+ORD-02480,05-10-2023,Tarun Mukerjee,East,Electronics,8347.04,4,Active
+ORD-01743,10-03-2024,Aakash Bhat,South,Furniture,6761.88,7,Active
+ORD-01036,17-07-2024,Sneha Gupta,North,Electronics,41745.42,2,Active
+ORD-01417,26-08-2023,Rajesh Choudhury,South,Electronics,29109.17,4,Active
+ORD-01006,05-04-2023,Divya Kaur,North,Furniture,0,1,Cancelled
+ORD-02400,16-05-2024,Vivek Chopra,West,Office Supplies,295.76,29,Active
+ORD-01482,20-07-2023,Dev Mathur,East,Electronics,7455.03,4,Active
+ORD-02389,17-06-2024,Lakshmi Venkat,North,Office Supplies,70.85,28,Active
+ORD-02274,17-12-2023,Meena Krishnan,North,Office Supplies,1611.88,8,Active
+ORD-02080,01-06-2024,Ajay Rastogi,North,Office Supplies,798.64,7,Active
+ORD-01864,28-11-2023,Yash Agarwal,West,Office Supplies,3143.33,29,Active
+ORD-02210,01-03-2024,Geeta Pandey,West,Electronics,25411.91,1,Active
+ORD-02166,04-06-2023,Padma Subramaniam,West,Office Supplies,2246.45,15,Active
+ORD-01472,03-10-2023,Rahul Verma,West,Electronics,15607.49,4,Active
+ORD-02099,16-03-2024,Rahul Verma,West,Furniture,15395.87,8,Active
+ORD-02337,16-08-2024,Ananya Sharma,North,Office Supplies,3463,5,Active
+ORD-02009,18-12-2023,Riya Malhotra,East,Office Supplies,590.92,26,Active
+ORD-02094,24-05-2024,Riya Malhotra,East,Electronics,2113.78,1,Active
+ORD-02104,21-05-2024,Nidhi Bhatt,South,Office Supplies,2383.88,25,Active
+ORD-02019,20-04-2024,Ananya Sharma,North,Electronics,17811.66,3,Active
+ORD-01858,18-10-2024,Priya Patel,East,Furniture,8387.14,1,Active
+ORD-01785,02-09-2024,Amit Kumar,South,Electronics,11793.52,4,Active
+ORD-01504,28-01-2024,Pooja Iyer,North,Office Supplies,3102.05,17,Active
+ORD-01284,25-06-2023,Sarita Bansal,West,Office Supplies,1214.79,30,Active
+ORD-01683,11-01-2023,Suresh Rao,West,Office Supplies,2410.36,25,Active
+ORD-01848,08-07-2023,Lakshmi Venkat,North,Electronics,32936.92,3,Active
+ORD-01986,17-09-2024,Deepa Pillai,East,Electronics,36946.77,1,Active
+ORD-01869,29-05-2023,Sanjay Joshi,West,Electronics,0,3,Cancelled
+ORD-02013,16-08-2023,Nidhi Bhatt,South,Office Supplies,3148.97,14,Active
+ORD-01654,29-11-2024,Lakshmi Venkat,North,Electronics,0,5,Cancelled
+ORD-01723,16-01-2023,Kavya Nair,North,Office Supplies,1031.5,27,Active
+ORD-01789,22-01-2024,Smita Patil,East,Furniture,0,8,Cancelled
+ORD-02428,28-10-2023,Tarun Mukerjee,East,Electronics,0,5,Cancelled
+ORD-02366,24-03-2024,Pooja Iyer,North,Furniture,15195.66,3,Active
+ORD-01662,25-09-2024,Kavya Nair,North,Office Supplies,207.03,28,Active
+ORD-01186,14-02-2023,Asha Kulkarni,South,Office Supplies,3375.89,2,Active
+ORD-01297,28-09-2023,Harsh Shah,West,Furniture,1100.79,1,Active
+ORD-01571,03-06-2023,Asha Kulkarni,South,Electronics,36400,5,Active
+ORD-01876,06-12-2023,Arjun Reddy,West,Electronics,7931.02,3,Active
+ORD-01232,07-01-2024,Vivek Chopra,West,Electronics,15904.57,4,Active
+ORD-01138,17-04-2024,Rahul Verma,West,Electronics,22828.2,3,Active
+ORD-01980,30-08-2024,Suresh Rao,West,Electronics,35839.07,3,Active
+ORD-01915,09-04-2024,Geeta Pandey,West,Electronics,16333.68,4,Active
+ORD-02329,28-03-2023,Tara Saxena,East,Furniture,4374.14,1,Active
+ORD-01303,24-05-2023,Lakshmi Venkat,North,Furniture,3176.29,5,Active
+ORD-02430,22-06-2023,Yash Agarwal,North,Furniture,12028.77,4,Active
+ORD-01301,28-05-2023,Neha Tiwari,North,Furniture,9151.38,1,Active
+ORD-02469,12-04-2023,Priya Patel,East,Electronics,7061.7,2,Active
+ORD-01005,08-03-2024,Gaurav Mishra,South,Electronics,43108.82,3,Active
+ORD-02157,11-01-2023,Manish Srivastava,East,Furniture,0,7,Cancelled
+ORD-01544,04-04-2024,Sanjay Joshi,West,Electronics,43769.69,2,Active
+ORD-02287,25-11-2024,Rohan Mehta,South,Office Supplies,2388.18,20,Active
+ORD-02023,11-01-2024,Sanjay Joshi,West,Office Supplies,0,23,Returned
+ORD-01556,02-03-2024,Tarun Mukerjee,East,Electronics,0,4,Cancelled
+ORD-01213,20-06-2024,Arjun Reddy,South,Furniture,13500.75,4,Active
+ORD-01714,22-05-2023,Rahul Verma,West,Furniture,14161.03,3,Active
+ORD-02168,23-04-2024,Kiran Nambiar,West,Furniture,0,6,Cancelled
+ORD-02372,17-01-2023,Sunita Menon,North,Furniture,14823.32,2,Active
+ORD-01308,25-01-2024,Amit Kumar,South,Electronics,2195.42,1,Active
+ORD-01871,29-09-2024,Meena Krishnan,West,Furniture,9919.97,1,Active
+ORD-02245,01-05-2023,Harsh Shah,West,Furniture,5667.7,8,Active
+ORD-01686,13-02-2023,Aakash Bhat,South,Furniture,7169.25,8,Active
+ORD-02087,13-03-2023,Manish Srivastava,East,Furniture,0,8,Cancelled
+ORD-01878,15-08-2024,Harsh Shah,West,Electronics,34768.23,3,Active
+ORD-01365,28-07-2023,Harsh Shah,West,Electronics,0,2,Cancelled
+ORD-01310,28-05-2024,Sarita Bansal,West,Office Supplies,2559.54,23,Active
+ORD-01089,24-01-2024,Nikhil Desai,South,Furniture,4765.21,2,Active
+ORD-01174,17-11-2024,Dev Mathur,East,Office Supplies,2556.77,29,Active
+ORD-02401,08-05-2023,Divya Kaur,North,Electronics,9384.89,4,Active
+ORD-01243,29-02-2024,Vikram Singh,West,Furniture,4473.27,2,Active
+ORD-01684,24-05-2023,Yash Agarwal,North,Office Supplies,3323.06,22,Active
+ORD-01157,28-03-2024,Smita Patil,East,Furniture,0,7,Cancelled
+ORD-01732,02-07-2023,Manish Srivastava,East,Electronics,40328.78,3,Active
+ORD-02237,12-06-2024,Nidhi Bhatt,South,Furniture,0,3,Cancelled
+ORD-01209,15-11-2024,Smita Patil,North,Furniture,631.73,2,Active
+ORD-02175,03-10-2023,Tarun Mukerjee,East,Furniture,17464.94,8,Active
+ORD-02215,24-04-2023,Sneha Gupta,East,Office Supplies,2748.44,4,Active
+ORD-01348,05-03-2024,Sarita Bansal,West,Electronics,11437.45,1,Active
+ORD-02008,15-10-2023,Pooja Iyer,North,Furniture,0,3,Returned
+ORD-01231,17-11-2024,Asha Kulkarni,South,Office Supplies,1510.75,12,Active
+ORD-01788,22-10-2024,Smita Patil,East,Furniture,0,1,Cancelled
+ORD-01463,05-08-2024,Sunita Menon,East,Office Supplies,0,16,Returned
+ORD-01588,13-05-2023,Sneha Gupta,East,Office Supplies,1106.1,3,Active
+ORD-01724,19-08-2024,Smita Patil,East,Furniture,4305.43,4,Active
+ORD-01302,21-05-2023,Gaurav Mishra,South,Office Supplies,1626.61,20,Active
+ORD-01790,24-03-2024,Padma Subramaniam,West,Office Supplies,1740.82,19,Active
+ORD-02441,10-01-2023,Dev Mathur,East,Furniture,2861.2,5,Active
+ORD-01465,12-02-2024,Varun Naik,North,Office Supplies,1778.62,14,Active
+ORD-01050,04-12-2024,Meena Krishnan,North,Furniture,16324.46,1,Active
+ORD-01460,05-11-2024,Vivek Chopra,West,Office Supplies,1807.85,24,Active
+ORD-02357,18-12-2024,Vivek Chopra,West,Electronics,19145.33,2,Active
+ORD-01291,05-09-2023,Bhavna Dubey,South,Furniture,4688.16,2,Active
+ORD-01851,01-10-2023,Tarun Mukerjee,East,Electronics,0,2,Cancelled
+ORD-02491,08-01-2023,Kiran Nambiar,West,Office Supplies,1240.46,24,Active
+ORD-02183,07-10-2024,Kiran Nambiar,West,Office Supplies,0,15,Cancelled
+ORD-01608,16-05-2023,Vikram Singh,West,Electronics,5384.12,5,Active
+ORD-02116,10-03-2023,Ajay Rastogi,North,Furniture,7859.77,6,Active
+ORD-01211,19-02-2024,Rohan Mehta,South,Electronics,36218.44,5,Active
+ORD-01092,29-04-2024,Rahul Verma,West,Electronics,0,3,Returned
+ORD-02236,09-08-2024,Pooja Iyer,North,Office Supplies,2594.42,4,Active
+ORD-01253,21-01-2023,Divya Kaur,North,Electronics,28896.65,3,Active
+ORD-02189,18-04-2024,Sanjay Joshi,West,Furniture,0,7,Cancelled
+ORD-01548,18-12-2024,Sarita Bansal,West,Furniture,2291.58,3,Active
+ORD-02114,08-08-2023,Tara Saxena,East,Furniture,17933.23,7,Active
+ORD-01115,08-03-2023,Rajesh Choudhury,South,Office Supplies,2221.59,2,Active
+ORD-01500,06-05-2023,Priya Patel,East,Electronics,8225.12,5,Active
+ORD-01317,28-03-2024,Meena Krishnan,North,Electronics,9731.41,5,Active
+ORD-01981,30-06-2024,Yash Agarwal,North,Electronics,2437.29,1,Active
+ORD-01680,19-02-2024,Nidhi Bhatt,South,Electronics,25180.45,5,Active
+ORD-01630,01-07-2023,Nidhi Bhatt,South,Electronics,5377.09,5,Active
+ORD-01335,27-04-2024,Dev Mathur,East,Electronics,34474.2,5,Active
+ORD-01910,28-01-2024,Vikram Singh,West,Furniture,3468,8,Active
+ORD-02153,20-11-2024,Geeta Pandey,West,Office Supplies,750.85,28,Active
+ORD-02500,07-05-2023,Geeta Pandey,East,Electronics,21604.88,3,Active
+ORD-01286,04-08-2023,Ajay Rastogi,North,Office Supplies,154.49,29,Active
+ORD-01415,15-02-2023,Rahul Verma,East,Office Supplies,427.3,26,Active
+ORD-01175,01-11-2024,Sneha Gupta,East,Office Supplies,1458,9,Active
+ORD-01694,05-05-2024,Manish Srivastava,East,Electronics,29408.86,4,Active
+ORD-02111,22-01-2024,Ajay Rastogi,North,Office Supplies,387.15,16,Active
+ORD-02267,04-08-2024,Sunita Menon,East,Office Supplies,1776.49,26,Active
+ORD-01020,01-10-2023,Gaurav Mishra,South,Furniture,0,1,Cancelled
+ORD-02214,07-12-2024,Varun Naik,North,Electronics,32023.1,4,Active
+ORD-01293,14-08-2024,Lakshmi Venkat,North,Electronics,22823.34,5,Active
+ORD-01549,03-08-2024,Nidhi Bhatt,South,Electronics,0,5,Returned
+ORD-01172,06-11-2023,Sunita Menon,East,Electronics,42624.76,3,Active
+ORD-01509,11-09-2023,Suresh Rao,West,Office Supplies,242.88,8,Active
+ORD-02466,08-05-2023,Varun Naik,North,Office Supplies,642.03,22,Active
+ORD-02367,13-09-2024,Sneha Gupta,East,Electronics,24431.7,4,Active
+ORD-02406,13-01-2023,Rahul Verma,West,Office Supplies,2505.05,13,Active
+ORD-02437,29-04-2023,Tara Saxena,East,Electronics,15838.51,5,Active
+ORD-01043,26-09-2024,Arjun Reddy,South,Office Supplies,2000.03,11,Active
+ORD-02331,24-05-2024,Lakshmi Venkat,North,Electronics,8736.81,2,Active
+ORD-01774,29-09-2024,Geeta Pandey,West,Electronics,7525,5,Active
+ORD-01205,08-06-2024,Rahul Verma,West,Electronics,13319.49,5,Active
+ORD-01025,12-05-2024,Kavya Nair,North,Office Supplies,2692.13,5,Active
+ORD-01282,22-03-2023,Meena Krishnan,North,Office Supplies,996.86,21,Active
+ORD-02079,12-10-2023,Nidhi Bhatt,South,Electronics,38597.1,5,Active
+ORD-01206,23-06-2024,Vivek Chopra,West,Office Supplies,239,7,Active
+ORD-01825,06-09-2023,Kavya Nair,North,Furniture,6024.39,2,Active
+ORD-01932,29-01-2024,Harsh Shah,West,Electronics,13550.41,2,Active
+ORD-01503,24-10-2024,Tara Saxena,East,Office Supplies,1702.66,3,Active
+ORD-02460,08-08-2024,Pooja Iyer,North,Electronics,32348.55,5,Active
+ORD-01148,01-11-2024,Amit Kumar,East,Furniture,11331.69,7,Active
+ORD-01294,25-05-2024,Vivek Chopra,West,Electronics,42579.29,5,Active
+ORD-01143,02-04-2024,Dev Mathur,East,Furniture,10068.94,7,Active
+ORD-01385,22-03-2023,Varun Naik,North,Furniture,1250.43,7,Active
+ORD-01808,27-02-2024,Kiran Nambiar,West,Furniture,11068.92,4,Active
+ORD-01364,09-06-2024,Geeta Pandey,West,Office Supplies,1669.74,27,Active
+ORD-01334,06-06-2023,Bhavna Dubey,South,Office Supplies,1339.01,23,Active
+ORD-01636,09-07-2024,Lakshmi Venkat,North,Furniture,0,7,Cancelled
+ORD-01092,29-04-2024,Rahul Verma,West,Electronics,0,3,Returned
+ORD-02498,20-04-2023,Ananya Sharma,North,Office Supplies,692.24,12,Active
+ORD-01370,19-10-2024,Vikram Singh,West,Electronics,0,1,Returned
+ORD-02005,17-03-2023,Manish Srivastava,East,Electronics,40159.61,2,Active
+ORD-02167,13-07-2023,Amit Kumar,South,Electronics,0,2,Cancelled
+ORD-02473,06-10-2024,Nikhil Desai,South,Office Supplies,2277.22,23,Active
+ORD-01361,16-01-2023,Aakash Bhat,South,Office Supplies,454.74,25,Active
+ORD-02415,07-07-2023,Neha Tiwari,North,Furniture,8100.93,2,Active
+ORD-01941,28-04-2024,Kavya Nair,North,Office Supplies,2803.44,10,Active
+ORD-02474,31-07-2024,Varun Naik,North,Furniture,14841.75,6,Active
+ORD-02016,21-02-2024,Aakash Bhat,South,Furniture,4531.4,2,Active
+ORD-01192,01-03-2024,Sneha Gupta,East,Furniture,12072.41,6,Active
+ORD-02444,10-08-2024,Manish Srivastava,East,Electronics,22680.13,4,Active
+ORD-02299,23-02-2023,Tara Saxena,East,Furniture,1996.2,7,Active
+ORD-01755,01-10-2023,Tarun Mukerjee,East,Furniture,0,6,Returned
+ORD-01889,28-11-2023,Ananya Sharma,North,Furniture,6342.1,1,Active
+ORD-01475,21-11-2024,Rahul Verma,West,Office Supplies,58.86,28,Active
+ORD-01914,08-01-2024,Rajesh Choudhury,South,Office Supplies,1189.63,28,Active
+ORD-01112,16-02-2023,Vikram Singh,West,Office Supplies,0,21,Returned
+ORD-01810,05-02-2023,Tara Saxena,East,Office Supplies,516.05,29,Active
+ORD-02192,10-09-2024,Meena Krishnan,North,Electronics,19973.91,1,Active
+ORD-01418,30-01-2023,Sarita Bansal,West,Furniture,10782,7,Active
+ORD-01551,01-11-2024,Geeta Pandey,West,Furniture,963.14,5,Active
+ORD-02278,28-10-2024,Kavya Nair,North,Office Supplies,1585.86,4,Active
+ORD-02311,13-02-2023,Geeta Pandey,West,Electronics,29033.5,2,Active
+ORD-01906,27-03-2024,Rahul Verma,West,Electronics,12894.75,1,Active
+ORD-01423,23-12-2024,Vivek Chopra,West,Office Supplies,342.39,5,Active
+ORD-02129,18-11-2024,Arjun Reddy,South,Office Supplies,2957.49,8,Active
+ORD-02238,11-03-2024,Sunita Menon,East,Electronics,19579.99,2,Active
+ORD-01528,21-01-2023,Lakshmi Venkat,North,Electronics,4079.66,2,Active
+ORD-01783,30-08-2023,Kiran Nambiar,West,Electronics,35912.06,5,Active
+ORD-02388,25-02-2023,Suresh Rao,West,Office Supplies,2532.28,20,Active
+ORD-02195,06-11-2023,Arjun Reddy,South,Electronics,0,1,Cancelled
+ORD-02101,18-06-2023,Geeta Pandey,West,Furniture,0,8,Returned
+ORD-01033,17-03-2024,Smita Patil,East,Furniture,0,1,Cancelled
+ORD-01525,21-04-2023,Ananya Sharma,West,Office Supplies,1497.8,6,Active
+ORD-01362,06-09-2023,Tarun Mukerjee,East,Furniture,0,6,Returned
+ORD-01573,23-09-2023,Sunita Menon,East,Office Supplies,171.85,23,Active
+ORD-01450,10-02-2024,Vivek Chopra,West,Electronics,0,1,Cancelled
+ORD-01729,22-09-2023,Kavya Nair,North,Electronics,30719.55,2,Active
+ORD-01022,02-11-2023,Varun Naik,North,Electronics,17326.99,2,Active
+ORD-01118,06-04-2024,Yash Agarwal,North,Office Supplies,3465.61,10,Active
+ORD-02286,23-09-2023,Ajay Rastogi,North,Office Supplies,2564.7,9,Active
+ORD-01604,24-11-2024,Lakshmi Venkat,North,Electronics,4998.93,1,Active
+ORD-02253,26-01-2023,Ajay Rastogi,North,Office Supplies,1115.53,21,Active
+ORD-01837,27-12-2024,Sneha Gupta,East,Furniture,15641.88,2,Active
+ORD-01274,04-11-2023,Deepa Pillai,East,Office Supplies,2250.07,26,Active
+ORD-01541,19-06-2024,Sunita Menon,East,Office Supplies,3040.78,16,Active
+ORD-02125,03-06-2023,Neha Tiwari,East,Furniture,8891.27,7,Active
+ORD-01171,02-12-2023,Sarita Bansal,West,Electronics,0,4,Cancelled
+ORD-01665,14-08-2023,Pooja Iyer,North,Office Supplies,1067.68,21,Active
+ORD-01756,24-08-2024,Asha Kulkarni,South,Furniture,3261.53,1,Active
+ORD-02240,28-09-2023,Nidhi Bhatt,South,Furniture,0,8,Cancelled
+ORD-02360,13-11-2024,Kavya Nair,North,Office Supplies,3162.71,30,Active
+ORD-01003,01-06-2024,Tarun Mukerjee,South,Office Supplies,2292.1,18,Active
+ORD-01238,12-01-2024,Ajay Rastogi,North,Furniture,13919.06,7,Active
+ORD-02095,25-05-2024,Rohan Mehta,South,Furniture,11001.14,6,Active
+ORD-02392,18-06-2023,Neha Tiwari,North,Electronics,27578.62,3,Active
+ORD-01510,02-02-2024,Smita Patil,East,Electronics,8583.64,5,Active
+ORD-02439,05-03-2023,Nidhi Bhatt,South,Furniture,0,6,Returned
+ORD-01554,07-11-2023,Vivek Chopra,West,Furniture,15490.76,2,Active
+ORD-01273,29-11-2024,Lakshmi Venkat,North,Office Supplies,274.04,18,Active
+ORD-01569,28-07-2024,Tarun Mukerjee,East,Furniture,12414.11,8,Active
+ORD-01304,11-12-2023,Varun Naik,North,Office Supplies,1739.97,19,Active
+ORD-01081,04-06-2023,Riya Malhotra,East,Electronics,32023.73,1,Active
+ORD-01598,23-07-2023,Tarun Mukerjee,East,Furniture,15017.53,4,Active
+ORD-02395,09-06-2023,Manish Srivastava,West,Furniture,15416.55,5,Active
+ORD-02369,05-02-2023,Dev Mathur,East,Office Supplies,214.76,21,Active
+ORD-02343,03-12-2024,Rajesh Choudhury,South,Office Supplies,1904.73,11,Active
+ORD-01459,20-07-2024,Tarun Mukerjee,East,Office Supplies,1032.98,23,Active
+ORD-01351,27-02-2023,Pooja Iyer,North,Furniture,4444.66,6,Active
+ORD-01244,18-08-2023,Rohan Mehta,South,Electronics,37891.59,3,Active
+ORD-02404,06-01-2024,Rohan Mehta,South,Office Supplies,560.2,20,Active
+ORD-01550,14-04-2023,Tara Saxena,East,Furniture,15838.72,5,Active
+ORD-01607,06-10-2023,Divya Kaur,North,Furniture,14458.21,3,Active
+ORD-01452,27-11-2024,Yash Agarwal,East,Electronics,0,4,Cancelled
+ORD-01622,27-07-2024,Sarita Bansal,West,Office Supplies,2317.23,23,Active
+ORD-01531,10-06-2023,Vikram Singh,West,Electronics,0,4,Cancelled
+ORD-02452,06-01-2024,Ajay Rastogi,North,Electronics,0,4,Cancelled
+ORD-02350,14-06-2024,Ananya Sharma,North,Furniture,7222.56,2,Active
+ORD-01933,12-01-2023,Kavya Nair,North,Electronics,32683.19,4,Active
+ORD-02051,19-10-2023,Smita Patil,East,Furniture,15775.14,2,Active
+ORD-01019,20-07-2024,Ananya Sharma,North,Electronics,0,5,Returned
+ORD-02213,13-05-2024,Meena Krishnan,North,Furniture,13917.92,5,Active
+ORD-01447,08-05-2023,Deepa Pillai,East,Electronics,44639.25,4,Active
+ORD-02172,22-06-2024,Ajay Rastogi,North,Electronics,0,4,Cancelled
+ORD-01328,17-09-2024,Rajesh Choudhury,South,Office Supplies,0,13,Cancelled
+ORD-01008,25-09-2024,Harsh Shah,West,Office Supplies,289.97,22,Active
+ORD-01377,01-08-2024,Suresh Rao,West,Electronics,14058.88,1,Active
+ORD-01424,01-05-2023,Suresh Rao,West,Electronics,17300.13,2,Active
+ORD-01557,11-05-2024,Asha Kulkarni,South,Electronics,23574.92,2,Active
+ORD-02244,23-02-2024,Rahul Verma,West,Office Supplies,1049.09,17,Active
+ORD-01821,18-03-2024,Tara Saxena,East,Electronics,6642.76,1,Active
+ORD-01800,02-11-2024,Geeta Pandey,West,Electronics,21488.21,1,Active
+ORD-02152,24-06-2023,Ajay Rastogi,North,Office Supplies,1864.14,25,Active
+ORD-01028,13-06-2024,Yash Agarwal,North,Electronics,3629.94,1,Active
+ORD-02044,10-08-2024,Amit Kumar,South,Office Supplies,3178.74,15,Active
+ORD-01897,19-11-2023,Priya Patel,East,Electronics,22769.81,2,Active
+ORD-01339,01-04-2024,Vikram Singh,West,Office Supplies,1483.21,19,Active
+ORD-02376,16-02-2024,Lakshmi Venkat,South,Furniture,4195.7,5,Active
+ORD-02052,30-03-2024,Sunita Menon,East,Furniture,0,7,Cancelled
+ORD-02091,27-08-2023,Kiran Nambiar,West,Furniture,0,5,Returned
+ORD-02014,11-02-2023,Manish Srivastava,East,Office Supplies,165.99,17,Active
+ORD-01815,11-08-2023,Kavya Nair,North,Furniture,3360.37,2,Active
+ORD-01390,25-01-2024,Amit Kumar,South,Furniture,6684.39,2,Active
+ORD-01125,15-03-2023,Vikram Singh,West,Furniture,10832.28,5,Active
+ORD-02160,17-09-2023,Varun Naik,North,Furniture,17602.17,6,Active
+ORD-01094,15-11-2023,Sneha Gupta,East,Furniture,10491.6,7,Active
+ORD-01594,21-04-2023,Rohan Mehta,North,Furniture,8164.36,2,Active
+ORD-01265,21-03-2024,Nikhil Desai,South,Electronics,4116.82,4,Active
+ORD-01562,23-08-2024,Padma Subramaniam,West,Electronics,0,3,Returned
+ORD-02228,28-03-2024,Smita Patil,East,Office Supplies,1445.54,7,Active
+ORD-01342,03-03-2023,Kavya Nair,North,Furniture,861.71,7,Active
+ORD-01045,20-11-2023,Kavya Nair,North,Electronics,24563.44,5,Active
+ORD-02032,22-12-2023,Sunita Menon,East,Office Supplies,124.11,7,Active
+ORD-02073,17-12-2023,Sanjay Joshi,West,Electronics,33705.14,1,Active
+ORD-01859,15-06-2024,Dev Mathur,East,Office Supplies,185.42,13,Active
+ORD-01989,07-08-2023,Priya Patel,East,Furniture,1419.03,5,Active
+ORD-01139,23-12-2024,Nikhil Desai,South,Furniture,17650.33,4,Active
+ORD-01894,14-08-2024,Gaurav Mishra,South,Furniture,1471.97,3,Active
+ORD-01241,08-05-2023,Tara Saxena,East,Electronics,12857.38,5,Active
+ORD-02386,10-02-2023,Asha Kulkarni,South,Furniture,0,5,Returned
+ORD-01919,29-01-2024,Kavya Nair,North,Office Supplies,2088.85,26,Active
+ORD-01750,19-12-2023,Rohan Mehta,South,Furniture,15652.42,4,Active
+ORD-01712,28-07-2023,Sunita Menon,East,Office Supplies,1714.51,12,Active
+ORD-02148,27-06-2023,Nidhi Bhatt,South,Furniture,3816.35,7,Active
+ORD-01518,23-03-2024,Geeta Pandey,West,Electronics,0,5,Cancelled
+ORD-02128,26-02-2023,Arjun Reddy,South,Furniture,15648.94,7,Active
+ORD-02432,30-01-2023,Deepa Pillai,East,Furniture,16276.88,5,Active
+ORD-01393,29-12-2023,Padma Subramaniam,West,Office Supplies,2756.31,28,Active
+ORD-01262,10-03-2024,Arjun Reddy,South,Electronics,24909.97,3,Active
+ORD-01090,20-01-2023,Dev Mathur,East,Electronics,0,1,Returned
+ORD-01315,08-10-2023,Tara Saxena,East,Office Supplies,1924.01,29,Active
+ORD-02093,07-06-2024,Nikhil Desai,South,Furniture,2212.25,5,Active
+ORD-01414,02-05-2024,Sneha Gupta,East,Office Supplies,1610.94,3,Active
+ORD-01972,04-02-2024,Nikhil Desai,South,Furniture,16311.73,1,Active
+ORD-01618,03-04-2024,Arjun Reddy,South,Furniture,0,8,Returned
+ORD-01703,21-09-2024,Tarun Mukerjee,North,Electronics,22115.05,2,Active
+ORD-02268,18-01-2024,Dev Mathur,East,Electronics,24559.07,4,Active
+ORD-02120,07-08-2023,Bhavna Dubey,South,Office Supplies,0,20,Returned
+ORD-01154,04-07-2023,Deepa Pillai,East,Office Supplies,0,20,Cancelled
+ORD-01203,28-03-2023,Vikram Singh,West,Office Supplies,221.68,3,Active
+ORD-01913,01-12-2024,Bhavna Dubey,South,Electronics,7152.5,5,Active
+ORD-01396,02-10-2023,Geeta Pandey,West,Electronics,20012.69,4,Active
+ORD-01391,12-11-2023,Yash Agarwal,North,Furniture,2109.5,2,Active
+ORD-02341,25-07-2024,Rohan Mehta,South,Office Supplies,0,10,Cancelled
+ORD-02202,14-02-2024,Geeta Pandey,West,Office Supplies,2159.66,22,Active
+ORD-01085,13-08-2023,Nikhil Desai,South,Electronics,0,4,Cancelled
+ORD-02467,12-09-2023,Vivek Chopra,East,Office Supplies,1892.65,5,Active
+ORD-02233,03-06-2024,Smita Patil,East,Office Supplies,3297.63,15,Active
+ORD-02290,13-06-2024,Priya Patel,East,Electronics,2875.84,4,Active
+ORD-01268,03-02-2023,Tarun Mukerjee,East,Furniture,17094.18,6,Active
+ORD-01218,16-08-2024,Yash Agarwal,North,Office Supplies,2268.32,20,Active
+ORD-01179,16-10-2024,Tarun Mukerjee,East,Electronics,35576.32,2,Active
+ORD-01787,07-06-2023,Dev Mathur,East,Electronics,22362.66,3,Active
+ORD-02197,03-10-2024,Dev Mathur,East,Furniture,13924.06,3,Active
+ORD-01431,04-07-2024,Tara Saxena,East,Furniture,10312.01,8,Active
+ORD-01566,18-08-2023,Meena Krishnan,North,Furniture,12915.51,5,Active
+ORD-02332,22-10-2024,Kavya Nair,North,Electronics,13817.69,5,Active
+ORD-01488,18-03-2023,Nidhi Bhatt,South,Furniture,12025.26,3,Active
+ORD-01762,02-05-2024,Bhavna Dubey,South,Office Supplies,3275.26,18,Active
+ORD-02239,08-08-2023,Yash Agarwal,West,Office Supplies,1978.44,25,Active
+ORD-02084,22-04-2024,Rahul Verma,West,Furniture,13792.24,5,Active
+ORD-02207,03-11-2024,Bhavna Dubey,South,Furniture,13097.01,7,Active
+ORD-01741,17-08-2024,Sneha Gupta,East,Office Supplies,3023.35,6,Active
+ORD-01739,22-12-2023,Rajesh Choudhury,South,Electronics,0,1,Cancelled
+ORD-01679,19-03-2023,Rohan Mehta,South,Office Supplies,157.62,19,Active
+ORD-01267,10-05-2023,Kavya Nair,North,Office Supplies,1313.83,13,Active
+ORD-02131,21-06-2024,Meena Krishnan,North,Electronics,0,1,Returned
+ORD-02399,19-01-2024,Geeta Pandey,West,Furniture,16943.04,6,Active
+ORD-01036,17-07-2024,Sneha Gupta,North,Electronics,41745.42,2,Active
+ORD-02371,22-01-2024,Neha Tiwari,North,Furniture,16384.99,4,Active
+ORD-01199,04-11-2024,Nikhil Desai,East,Office Supplies,2680.31,30,Active
+ORD-01229,25-03-2023,Nidhi Bhatt,South,Furniture,5791.1,7,Active
+ORD-02438,29-04-2023,Ajay Rastogi,North,Furniture,17187.01,1,Active
+ORD-01685,10-05-2024,Smita Patil,West,Electronics,3578.46,3,Active
+ORD-02435,07-09-2024,Kavya Nair,North,Furniture,16409.96,7,Active
+ORD-02007,03-01-2024,Nikhil Desai,South,Electronics,2218.58,5,Active
+ORD-01517,22-12-2024,Rajesh Choudhury,South,Furniture,5641.24,3,Active
+ORD-01379,14-10-2024,Ananya Sharma,North,Electronics,22893.74,4,Active
+ORD-01883,23-09-2023,Asha Kulkarni,South,Office Supplies,1270.79,5,Active
+ORD-01207,05-08-2023,Pooja Iyer,North,Furniture,6107.77,1,Active
+ORD-02243,03-02-2023,Deepa Pillai,East,Furniture,16614.04,2,Active
+ORD-01574,14-07-2023,Gaurav Mishra,South,Electronics,0,4,Cancelled
+ORD-01967,02-02-2024,Gaurav Mishra,South,Furniture,17214.22,5,Active
+ORD-01585,15-03-2024,Rajesh Choudhury,South,Furniture,7084.7,1,Active
+ORD-01435,31-08-2023,Aakash Bhat,South,Office Supplies,0,28,Cancelled
+ORD-01659,15-03-2023,Amit Kumar,East,Electronics,4668.42,1,Active
+ORD-02353,11-08-2024,Vivek Chopra,West,Office Supplies,2522.86,15,Active
+ORD-01113,17-05-2024,Sneha Gupta,East,Office Supplies,1030.97,16,Active
+ORD-01002,12-07-2024,Arjun Reddy,South,Electronics,2117.04,2,Active
+ORD-01084,02-11-2023,Divya Kaur,North,Furniture,9826.5,4,Active
+ORD-01373,14-05-2024,Rohan Mehta,West,Electronics,1539.3,3,Active
+ORD-01098,19-03-2024,Harsh Shah,West,Furniture,12819.36,7,Active
+ORD-01656,14-02-2023,Tara Saxena,East,Electronics,14957.82,1,Active
+ORD-01506,11-07-2024,Geeta Pandey,West,Office Supplies,1783.26,13,Active
+ORD-01857,25-01-2024,Lakshmi Venkat,North,Office Supplies,2023.17,18,Active
+ORD-01719,29-06-2023,Geeta Pandey,West,Electronics,38395.09,5,Active
+ORD-01575,03-01-2024,Varun Naik,North,Electronics,37956.23,5,Active
+ORD-01745,04-10-2023,Suresh Rao,West,Furniture,3770.32,3,Active
+ORD-01552,28-05-2023,Sarita Bansal,West,Office Supplies,1435.93,13,Active
+ORD-01226,20-06-2024,Asha Kulkarni,South,Furniture,6899.48,5,Active
+ORD-01624,26-10-2023,Padma Subramaniam,West,Office Supplies,416.81,29,Active
+ORD-01106,29-10-2023,Riya Malhotra,East,Electronics,14334.31,5,Active
+ORD-02319,30-09-2024,Kiran Nambiar,West,Electronics,6037.4,2,Active
+ORD-01875,30-10-2024,Smita Patil,North,Office Supplies,2044.42,20,Active
+ORD-02045,06-12-2024,Rahul Verma,West,Electronics,6962.51,5,Active
+ORD-01126,08-05-2023,Bhavna Dubey,South,Office Supplies,1438.65,9,Active
+ORD-01982,13-02-2023,Rajesh Choudhury,South,Office Supplies,0,15,Cancelled
+ORD-01873,23-03-2023,Tarun Mukerjee,East,Electronics,39791.82,3,Active
+ORD-01689,24-08-2024,Kavya Nair,North,Furniture,17516.33,4,Active
+ORD-01455,24-11-2024,Amit Kumar,North,Office Supplies,2292.57,15,Active
+ORD-01474,07-06-2024,Harsh Shah,South,Furniture,3084.39,2,Active
+ORD-02298,05-11-2023,Sarita Bansal,West,Electronics,5300.78,1,Active
+ORD-02434,10-10-2024,Geeta Pandey,West,Office Supplies,1198.16,8,Active
+ORD-01628,06-04-2024,Bhavna Dubey,South,Office Supplies,514.49,16,Active
+ORD-02076,06-11-2024,Varun Naik,North,Furniture,2404.92,5,Active
+ORD-01835,01-11-2024,Ananya Sharma,East,Office Supplies,2989.69,22,Active
+ORD-01779,12-09-2023,Divya Kaur,North,Furniture,4674.77,1,Active
+ORD-01105,04-09-2023,Manish Srivastava,East,Furniture,8232.69,1,Active
+ORD-01187,16-02-2024,Kiran Nambiar,West,Furniture,12909.5,8,Active
+ORD-01409,24-10-2024,Sarita Bansal,West,Furniture,17393.19,7,Active
+ORD-02263,04-05-2023,Vikram Singh,West,Office Supplies,2071.8,16,Active
+ORD-01037,21-02-2024,Geeta Pandey,West,Furniture,16273.24,3,Active
+ORD-01874,05-10-2024,Padma Subramaniam,West,Electronics,2962.21,2,Active
+ORD-01300,10-04-2023,Rajesh Choudhury,South,Furniture,0,6,Returned
+ORD-01394,13-01-2023,Tara Saxena,East,Electronics,32838.1,5,Active
+ORD-01561,01-02-2023,Suresh Rao,West,Office Supplies,1589.06,28,Active
+ORD-01079,11-10-2023,Asha Kulkarni,South,Electronics,0,1,Cancelled
+ORD-01822,08-08-2024,Vikram Singh,West,Furniture,0,7,Returned
+ORD-01271,24-09-2023,Yash Agarwal,North,Office Supplies,1035.24,30,Active
+ORD-01247,09-08-2023,Amit Kumar,South,Office Supplies,2150.64,14,Active
+ORD-01470,13-11-2023,Sanjay Joshi,West,Office Supplies,523.38,1,Active
+ORD-01305,01-05-2024,Rohan Mehta,South,Office Supplies,428.14,14,Active
+ORD-02300,05-09-2024,Sarita Bansal,West,Furniture,14374.41,2,Active
+ORD-02289,18-03-2024,Sunita Menon,East,Office Supplies,1838.12,16,Active
+ORD-02211,25-09-2023,Smita Patil,East,Electronics,37395.33,5,Active
+ORD-01387,01-12-2023,Rohan Mehta,South,Furniture,8983.68,6,Active
+ORD-01372,10-01-2023,Aakash Bhat,South,Furniture,1369.97,8,Active
+ORD-02252,16-02-2023,Yash Agarwal,North,Office Supplies,0,6,Cancelled
+ORD-02029,12-07-2023,Bhavna Dubey,South,Furniture,16193.64,5,Active
+ORD-02485,29-05-2024,Tara Saxena,East,Furniture,9514.53,4,Active
+ORD-01212,07-12-2024,Harsh Shah,West,Electronics,11554.59,5,Active
+ORD-02447,13-06-2023,Rohan Mehta,South,Furniture,7777.14,8,Active
+ORD-01971,20-01-2023,Geeta Pandey,West,Office Supplies,0,2,Cancelled
+ORD-01407,04-03-2024,Dev Mathur,East,Office Supplies,3139.48,18,Active
+ORD-02495,01-05-2023,Tara Saxena,East,Furniture,0,1,Cancelled
+ORD-02365,17-11-2024,Bhavna Dubey,South,Electronics,0,2,Cancelled
+ORD-01507,04-07-2023,Rohan Mehta,South,Electronics,2095.21,3,Active
+ORD-02436,19-10-2024,Padma Subramaniam,West,Furniture,14609.52,4,Active
+ORD-01540,08-07-2024,Sunita Menon,East,Office Supplies,834.92,2,Active
+ORD-01236,24-03-2024,Priya Patel,East,Office Supplies,2532.57,15,Active
+ORD-01576,28-10-2023,Sneha Gupta,East,Office Supplies,942.35,26,Active
+ORD-01511,15-12-2024,Smita Patil,East,Electronics,31892.62,3,Active
+ORD-01383,28-05-2023,Rajesh Choudhury,South,Furniture,3175.37,4,Active
+ORD-02048,12-10-2023,Neha Tiwari,West,Office Supplies,2366.87,3,Active
+ORD-01313,10-05-2024,Neha Tiwari,North,Furniture,10178.13,4,Active
+ORD-02265,21-02-2024,Kavya Nair,North,Furniture,11513.68,1,Active
+ORD-01508,28-04-2024,Asha Kulkarni,South,Office Supplies,3498.64,6,Active
+ORD-01879,24-01-2024,Kavya Nair,North,Office Supplies,273.99,16,Active
+ORD-01170,26-01-2024,Harsh Shah,West,Electronics,21639.28,5,Active
+ORD-01996,01-04-2023,Vivek Chopra,West,Electronics,25450.8,2,Active
+ORD-01578,06-12-2023,Harsh Shah,West,Furniture,8508.56,2,Active
+ORD-01593,17-10-2024,Meena Krishnan,North,Office Supplies,217.63,2,Active
+ORD-01984,25-05-2023,Geeta Pandey,West,Furniture,16357.07,1,Active
+ORD-01890,18-07-2023,Gaurav Mishra,South,Office Supplies,1702.92,16,Active
+ORD-01017,20-05-2024,Arjun Reddy,South,Electronics,0,2,Cancelled
+ORD-02223,11-01-2023,Asha Kulkarni,South,Electronics,0,4,Returned
+ORD-01880,05-05-2023,Nikhil Desai,South,Furniture,9586.24,4,Active
+ORD-01701,02-09-2024,Nidhi Bhatt,West,Furniture,2640.17,1,Active
+ORD-02390,13-03-2023,Neha Tiwari,South,Electronics,6349.8,2,Active
+ORD-01107,29-04-2024,Padma Subramaniam,West,Furniture,17940.38,6,Active
+ORD-01485,01-09-2023,Sunita Menon,East,Electronics,0,2,Cancelled
+ORD-02402,23-12-2023,Varun Naik,North,Office Supplies,2425.29,23,Active
+ORD-01028,13-06-2024,Yash Agarwal,North,Electronics,3629.94,1,Active
+ORD-02025,17-08-2024,Aakash Bhat,South,Electronics,14964.5,3,Active
+ORD-01705,15-01-2024,Priya Patel,East,Furniture,0,8,Returned
+ORD-01319,21-02-2023,Asha Kulkarni,South,Electronics,3120.11,4,Active
+ORD-01259,24-10-2024,Neha Tiwari,North,Electronics,39068.28,3,Active
+ORD-01044,29-07-2023,Lakshmi Venkat,North,Furniture,2616.55,5,Active
+ORD-01221,28-02-2023,Harsh Shah,West,Electronics,29294.26,1,Active
+ORD-01225,28-03-2023,Varun Naik,North,Electronics,11750.27,4,Active
+ORD-01270,27-04-2023,Rohan Mehta,South,Furniture,9464.09,2,Active
+ORD-01797,02-07-2023,Priya Patel,East,Furniture,3691.61,1,Active
+ORD-02487,23-03-2023,Kavya Nair,North,Electronics,8098,1,Active
+ORD-02028,27-09-2024,Harsh Shah,West,Office Supplies,2840.35,29,Active
+ORD-01819,09-11-2023,Asha Kulkarni,South,Furniture,9192.51,4,Active
+ORD-01666,02-11-2023,Harsh Shah,West,Electronics,25265.77,5,Active
+ORD-01261,11-07-2023,Geeta Pandey,West,Furniture,16660.3,5,Active
+ORD-02463,08-05-2023,Aakash Bhat,South,Electronics,0,5,Cancelled

@@ -1,16 +1,16 @@
-# ⚡ Sales Analytics — End-to-End Microsoft Fabric Pipeline
+# Sales Analytics — End-to-End Microsoft Fabric Pipeline
 
 A complete data pipeline built on **Microsoft Fabric**, implementing the Medallion Architecture (Bronze → Silver → Gold) to transform raw sales data into a star-schema data warehouse, powering an interactive Power BI report.
 
 ---
 
-## 📊 Final Report Preview
+## Final Report Preview
 
 ![Sales Analytics Overview](screenshots/05_powerbi_report.png)
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To build a production-style analytics pipeline — not just a dashboard — that demonstrates the full journey data takes in a modern analytics platform:
 
@@ -20,24 +20,24 @@ This project was built to understand how data engineering, analytics engineering
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
-┌──────────────┐   ┌──────────────┐   ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
-│  Raw Sales   │──▶│  Copy Data   │──▶│  Bronze Layer     │──▶│  Silver Layer     │──▶│  Gold Layer       │
-│  CSV         │   │  Activity    │   │  (Delta, raw)     │   │  (Cleaned)        │   │  (Star Schema)    │
-└──────────────┘   └──────────────┘   └──────────────────┘   └──────────────────┘   └──────────────────┘
+┌──────────────┐    ┌──────────────┐   ┌──────────────────┐    ┌──────────────────┐   ┌──────────────────┐
+│  Raw Sales   │──▶│  Copy Data   │──▶│  Bronze Layer    │──▶│  Silver Layer    │──▶│  Gold Layer      │
+│  CSV         │    │  Activity    │   │  (Delta, raw)    │    │  (Cleaned)       │   │  (Star Schema)   │
+└──────────────┘    └──────────────┘   └──────────────────┘    └──────────────────┘   └──────────────────┘
                                                                                                 │
                                                                                                 ▼
                                                                                       ┌──────────────────┐
-                                                                                      │  Fabric Warehouse │
-                                                                                      │  (fact + dims)    │
+                                                                                      │ Fabric Warehouse │
+                                                                                      │ (fact + dims)    │
                                                                                       └──────────────────┘
                                                                                                 │
                                                                                                 ▼
                                                                                       ┌──────────────────┐
-                                                                                      │  Power BI Report  │
-                                                                                      │  (Semantic Model) │
+                                                                                      │  Power BI Report │
+                                                                                      │ (Semantic Model) │
                                                                                       └──────────────────┘
 ```
 
@@ -45,7 +45,7 @@ The entire flow is orchestrated by a single **Data Factory pipeline** (`pl_inges
 
 ---
 
-## 🔧 Technical Walkthrough
+## Technical Walkthrough
 
 ### Step 1 — Fabric Warehouse: Initial Setup (T-SQL, via SQL analytics endpoint)
 
@@ -199,15 +199,18 @@ This completes the full analytics schema — `dim_date`, `dim_customer`, `dim_pr
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
-📂 Sales-Analytics-Microsoft-Fabric-Pipeline/
-├── 📂 notebooks/
-│   └── nb_build_tables.ipynb      ← PySpark: builds dim_customer, dim_product, dim_region, fact_sales
-├── 📂 sql/
-│   └── warehouse_setup.sql        ← T-SQL: schemas, views, stored procedures, dim_date generation
-├── 📂 screenshots/
+Sales-Analytics-Microsoft-Fabric-Pipeline/
+├── notebooks/
+│   └── nb_build_gold_layer.ipynb
+│   └── nb_build_tables.ipynb  
+│   └── nb_load_to_delta.ipynb
+│   └── nb_transform_bronze_to_silver.ipynb
+├── sql/
+│   └── warehouse_setup.sql
+├── screenshots/
 │   ├── 01_workspace_overview.png
 │   ├── 02_pipeline_flow.png
 │   ├── 03_lakehouse_tables.png
@@ -220,7 +223,7 @@ This completes the full analytics schema — `dim_date`, `dim_customer`, `dim_pr
 
 ---
 
-## 📁 Fabric Workspace Structure
+## Fabric Workspace Structure
 
 | Item | Type | Purpose |
 |---|---|---|
@@ -238,7 +241,7 @@ This completes the full analytics schema — `dim_date`, `dim_customer`, `dim_pr
 
 ---
 
-## 🗄️ Dataset
+## Dataset
 
 **Source:** `sales_data.csv` — order-level sales transaction data
 
@@ -254,7 +257,7 @@ This raw file is the single source ingested at the start of the pipeline — all
 
 ---
 
-## 🔑 Key Findings (from the final report)
+## Key Findings (from the final report)
 
 1. **Total revenue of ₹13.6M** across 1,268 orders, with an average revenue per order of ₹10.9K.
 2. **Electronics is the dominant revenue driver** at ₹9.0M — more than double Furniture (₹3.8M) and over 10× Office Supplies (₹0.8M) — despite Office Supplies having the highest order count (36% of orders).
@@ -264,7 +267,7 @@ This raw file is the single source ingested at the start of the pipeline — all
 
 ---
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
 | Category | Skill |
 |---|---|
@@ -281,7 +284,7 @@ This raw file is the single source ingested at the start of the pipeline — all
 
 ---
 
-## 🚀 How to Reproduce This Project
+## How to Reproduce This Project
 
 1. Create a Microsoft Fabric workspace (free trial available via Power BI / Fabric)
 2. Create a Lakehouse named `lh_sales`
@@ -299,7 +302,7 @@ This raw file is the single source ingested at the start of the pipeline — all
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 - How to design and implement the Medallion Architecture pattern — separating raw ingestion (Bronze), cleaned data (Silver), and business-ready dimensional models (Gold) into distinct, auditable stages rather than doing all transformation in one step.
 - How to build a proper star schema with fact and dimension tables, rather than a single flattened table — enabling cleaner relationships and more efficient Power BI report performance.
@@ -313,7 +316,7 @@ This raw file is the single source ingested at the start of the pipeline — all
 
 ---
 
-## 🙋 About
+## About
 
 Built by **[Your Name]** as part of a data analyst portfolio project.
 

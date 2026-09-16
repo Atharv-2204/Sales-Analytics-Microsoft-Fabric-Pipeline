@@ -1,4 +1,4 @@
-# Sales Analytics — End-to-End Microsoft Fabric Pipeline
+# Sales Analytics: End-to-End Microsoft Fabric Pipeline
 
 A complete data pipeline built on **Microsoft Fabric**, implementing the Medallion Architecture (Bronze → Silver → Gold) to transform raw sales data into a star-schema data warehouse, powering an interactive Power BI report.
 
@@ -204,9 +204,9 @@ This completes the full analytics schema — `dim_date`, `dim_customer`, `dim_pr
 ```
 Sales-Analytics-Microsoft-Fabric-Pipeline/
 ├── notebooks/
-│   └── nb_build_gold_layer.ipynb
-│   └── nb_build_tables.ipynb  
-│   └── nb_load_to_delta.ipynb
+│   ├── nb_build_gold_layer.ipynb
+│   ├── nb_build_tables.ipynb  
+│   ├── nb_load_to_delta.ipynb
 │   └── nb_transform_bronze_to_silver.ipynb
 ├── sql/
 │   └── warehouse_setup.sql
@@ -214,8 +214,8 @@ Sales-Analytics-Microsoft-Fabric-Pipeline/
 │   ├── 01_workspace_overview.png
 │   ├── 02_pipeline_flow.png
 │   ├── 03_lakehouse_tables.png
-│   ├── 04_powerbi_report.png
-│   └── 05_warehouse_tables.png
+│   ├── 04_warehouse_tables.png
+│   └── 05_powerbi_report.png
 ├── Sales_report.pbix
 ├── sales_data.csv
 └── README.md
@@ -318,11 +318,9 @@ This raw file is the single source ingested at the start of the pipeline — all
 
 ## About
 
-Built by **[Your Name]** as part of a data analyst portfolio project.
+Built by **[Atharv Dhole]** as part of a data analyst portfolio project.
 
-- 🔗 LinkedIn: [your-linkedin-url]
-- 📧 Email: your@email.com
+- LinkedIn: [https://www.linkedin.com/in/atharv-dhole/]
+- Email: atharvdhole22@gmail.com
 
 ---
-
-*If you found this useful, please ⭐ star the repository!*

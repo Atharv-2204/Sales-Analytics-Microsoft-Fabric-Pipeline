@@ -318,9 +318,9 @@ This raw file is the single source ingested at the start of the pipeline — all
 
 ## About
 
-Built by **[Atharv Dhole]** as part of a data analyst portfolio project.
+Built by **Atharv Dhole** as part of a data analyst portfolio project.
 
-- LinkedIn: [https://www.linkedin.com/in/atharv-dhole/]
+- LinkedIn: https://www.linkedin.com/in/atharv-dhole/
 - Email: atharvdhole22@gmail.com
 
 ---

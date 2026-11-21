@@ -1,96 +1,148 @@
-# Sales Analytics: End-to-End Microsoft Fabric Pipeline
+# Sales Analytics on Microsoft Fabric: Medallion Pipeline and Star Schema
 
-A complete data pipeline built on **Microsoft Fabric**, implementing the Medallion Architecture (Bronze → Silver → Gold) to transform raw sales data into a star-schema data warehouse, powering an interactive Power BI report.
+This project takes a raw sales CSV through a Bronze, Silver and Gold pipeline in a Fabric Lakehouse, models it as a star schema in a Fabric Warehouse, and reports on it in Power BI. I built it to learn how ingestion, modeling and reporting connect on one platform.
 
----
+The source file has 1,525 order rows from January 2023 to December 2024. After cleaning, 1,268 rows reach the report.
 
-## Final Report Preview
+![Sales Analytics Overview report](screenshots/05_powerbi_report.png)
 
-![Sales Analytics Overview](screenshots/05_powerbi_report.png)
+## Contents
 
----
+- [Architecture](#architecture)
+- [Tech stack](#tech-stack)
+- [Dataset](#dataset)
+- [Repository structure](#repository-structure)
+- [Fabric workspace items](#fabric-workspace-items)
+- [Build order](#build-order)
+- [Report](#report)
+- [Findings](#findings)
+- [Known limitations](#known-limitations)
+- [How to reproduce](#how-to-reproduce)
+- [What I learned](#what-i-learned)
+- [Contact](#contact)
 
-## Project Objective
-
-To build a production-style analytics pipeline — not just a dashboard — that demonstrates the full journey data takes in a modern analytics platform:
-
-**Raw CSV → Ingestion → Cleaning → Dimensional Modeling → Warehouse → Business Intelligence Report**
-
-This project was built to understand how data engineering, analytics engineering, and BI reporting connect as one system, rather than treating each stage as an isolated exercise.
-
----
-
-## Architecture Overview
+## Architecture
 
 ```
-┌──────────────┐    ┌──────────────┐   ┌──────────────────┐    ┌──────────────────┐   ┌──────────────────┐
-│  Raw Sales   │──▶│  Copy Data   │──▶│  Bronze Layer    │──▶│  Silver Layer    │──▶│  Gold Layer      │
-│  CSV         │    │  Activity    │   │  (Delta, raw)    │    │  (Cleaned)       │   │  (Star Schema)   │
-└──────────────┘    └──────────────┘   └──────────────────┘    └──────────────────┘   └──────────────────┘
-                                                                                                │
-                                                                                                ▼
-                                                                                      ┌──────────────────┐
-                                                                                      │ Fabric Warehouse │
-                                                                                      │ (fact + dims)    │
-                                                                                      └──────────────────┘
-                                                                                                │
-                                                                                                ▼
-                                                                                      ┌──────────────────┐
-                                                                                      │  Power BI Report │
-                                                                                      │ (Semantic Model) │
-                                                                                      └──────────────────┘
+sales_data.csv
+      |
+      |  pipeline: Copy data
+      v
+Lakehouse lh_sales
+  Files/raw --> bronze_sales --> silver_sales --> Gold sales summary
+                                     |
+                                     |--> nb_build_tables --> dim_customer, dim_product,
+                                     |                        dim_region, fact_sales
+                                     |
+                                     |  pipeline: Copy data
+                                     v
+Warehouse wh_sales
+  staging.silver_sales
+  analytics.dim_date                    generated with GENERATE_SERIES
+  analytics.dim_customer, dim_product,
+  dim_region, fact_sales                promoted with CREATE TABLE AS SELECT
+      |
+      v
+Semantic model Sales_Semantic --> Power BI report "Sales report"
 ```
 
-The entire flow is orchestrated by a single **Data Factory pipeline** (`pl_ingest_sales`) inside Fabric, chaining 5 activities: raw ingestion → transformation notebooks (×3) → final load into the warehouse.
+The pipeline `pl_ingest_sales` covers ingestion, Bronze, Silver and the Gold summary, and finishes by copying `silver_sales` into the Warehouse. The star schema tables are built afterwards with a notebook and moved into the Warehouse with SQL. The semantic model and the report read from the Warehouse tables.
 
----
+## Tech stack
 
-## Technical Walkthrough
+| Area | Tools |
+|---|---|
+| Platform | Microsoft Fabric: Lakehouse, Warehouse, Data Factory pipeline, Dataflow Gen2, notebooks, semantic model |
+| Processing | PySpark, Delta tables |
+| SQL | T-SQL: schemas, a view, a stored procedure, `GENERATE_SERIES`, `CREATE TABLE AS SELECT` |
+| Modeling | Star schema with surrogate keys and a generated date dimension |
+| Reporting | Power BI |
 
-### Step 1 — Fabric Warehouse: Initial Setup (T-SQL, via SQL analytics endpoint)
+## Dataset
 
-Before any dimensional modeling happens, the Warehouse is organized into three purpose-built schemas rather than one flat namespace:
+The source is `sales_data.csv`, included in this repository.
+
+| Detail | Value |
+|---|---|
+| Rows | 1,525 |
+| Columns | OrderID, OrderDate, CustomerName, Region, ProductCategory, Revenue, Quantity, Status |
+| Period | 2 January 2023 to 30 December 2024 |
+| Status | Active 1,273, Cancelled 161, Returned 91 |
+| Regions | North, South, East, West |
+| Categories | Electronics, Furniture, Office Supplies |
+| Customer names | 40 distinct names |
+
+The Silver layer keeps Active orders with revenue above zero. That leaves 1,268 rows: the 161 Cancelled orders, 91 Returned orders and 5 Active orders with zero revenue are dropped. Silver also adds a `revenue_usd` column.
+
+![Lakehouse tables in lh_sales](screenshots/03_lakehouse_tables.png)
+
+## Repository structure
+
+```
+Sales-Analytics-Microsoft-Fabric-Pipeline/
+├── notebooks/
+│   ├── nb_load_to_delta.ipynb
+│   ├── nb_transform_bronze_to_silver.ipynb
+│   ├── nb_build_gold_layer.ipynb
+│   └── nb_build_tables.ipynb
+├── sql/
+│   └── warehouse_setup.sql
+├── screenshots/
+│   ├── 01_workspace_overview.png
+│   ├── 02_pipeline_flow.png
+│   ├── 03_lakehouse_tables.png
+│   ├── 04_warehouse_tables.png
+│   └── 05_powerbi_report.png
+├── Sales_report.pbix
+├── sales_data.csv
+└── README.md
+```
+
+## Fabric workspace items
+
+| Item | Type | Purpose |
+|---|---|---|
+| `lh_sales` | Lakehouse | Bronze, Silver and Gold Delta tables, plus the star schema tables |
+| `lh_reporting` | Lakehouse | Supporting Lakehouse for reporting |
+| `nb_load_to_delta` | Notebook | Loads the raw CSV into the Bronze Delta table |
+| `nb_transform_bronze_to_silver` | Notebook | Cleans Bronze into `silver_sales` |
+| `nb_build_gold_layer` | Notebook | Builds the Gold sales summary table |
+| `nb_build_tables` | Notebook | Builds `dim_customer`, `dim_product`, `dim_region` and `fact_sales` from `silver_sales` |
+| `pl_ingest_sales` | Data pipeline | Runs ingestion, Bronze, Silver, Gold and the copy into the Warehouse |
+| `Sales_Dataflow` | Dataflow Gen2 | Extra data preparation |
+| `wh_sales` | Warehouse | Holds `staging.silver_sales` and the `analytics` star schema |
+| `Sales_Semantic` | Semantic model | Data model behind the report |
+| `Sales report` | Power BI report | The dashboard |
+
+![Workspace overview](screenshots/01_workspace_overview.png)
+
+## Build order
+
+I ran the work in five stages. The pipeline automates the first one. I ran stages 2 to 4 by hand.
+
+### 1. Ingestion pipeline
+
+![pl_ingest_sales pipeline](screenshots/02_pipeline_flow.png)
+
+| Order | Activity | What it does |
+|---|---|---|
+| 1 | Copy data | Copies `sales_data.csv` into the Lakehouse (`Files/raw`) |
+| 2 | Notebook `nb_load_to_delta` | Loads the CSV into the Bronze Delta table |
+| 3 | Notebook `nb_transform_bronze_to_silver` | Builds `silver_sales`: Active orders with revenue above zero, 1,268 of 1,525 rows, plus `revenue_usd` |
+| 4 | Notebook `nb_build_gold_layer` | Builds the Gold sales summary table |
+| 5 | Copy data | Copies `silver_sales` from the Lakehouse into the Warehouse |
+
+### 2. Warehouse setup
+
+In a query window on `wh_sales`, I created three schemas. `staging` holds data copied from the Lakehouse and `analytics` holds modeled tables and views. `reporting` was created for report-facing objects but is not used yet.
 
 ```sql
-CREATE SCHEMA staging;   -- Raw loads from the Lakehouse
-CREATE SCHEMA analytics; -- Cleaned views, dimension/fact tables, aggregations
-CREATE SCHEMA reporting; -- Final Power BI-facing objects
+CREATE SCHEMA staging;
+CREATE SCHEMA analytics;
+CREATE SCHEMA reporting;
 ```
 
-**A basic data check** confirms the `silver_sales` data lands correctly in staging before any modeling begins:
-
-```sql
-SELECT TOP 5 * FROM staging.silver_sales ORDER BY order_date DESC;
-```
-
-**An ad-hoc regional summary** validates the raw numbers look reasonable early on:
-
-```sql
-SELECT
-    region,
-    SUM(revenue) AS total_revenue,
-    COUNT(order_id) AS total_orders,
-    ROUND(AVG(revenue), 2) AS avg_order_value
-FROM staging.silver_sales
-GROUP BY region
-ORDER BY total_revenue DESC;
-```
-
-**A reusable view** then formalizes that region-level aggregation with a monthly breakdown, decoupling the report layer from the raw fact table:
-
-```sql
-CREATE VIEW analytics.vw_sales_by_region AS
-SELECT
-    region,
-    FORMAT(order_date, 'yyyy-MM') AS year_month,
-    SUM(revenue) AS total_revenue,
-    COUNT(order_id) AS total_orders,
-    AVG(revenue) AS avg_order_value
-FROM staging.silver_sales
-GROUP BY region, FORMAT(order_date, 'yyyy-MM');
-```
-
-**A parameterized stored procedure** returns the top N customers by revenue, avoiding a hardcoded query for every "Top 10" request:
+I checked the copied data with a `TOP 5` query and a revenue-by-region summary (both are in `sql/warehouse_setup.sql`). Then I created the view `analytics.vw_sales_by_region`, which gives revenue, order count and average order value by region and month, and a stored procedure that returns the top N customers by revenue:
 
 ```sql
 CREATE PROCEDURE analytics.usp_GetTopCustomers
@@ -106,17 +158,15 @@ BEGIN
     ORDER BY total_revenue DESC;
 END;
 
-EXEC analytics.usp_GetTopCustomers;          -- default top 10
-EXEC analytics.usp_GetTopCustomers @TopN = 5; -- custom top 5
+EXEC analytics.usp_GetTopCustomers;            -- top 10
+EXEC analytics.usp_GetTopCustomers @TopN = 5;  -- top 5
 ```
 
-This same stored procedure powers the "Top 10 Customers by Revenue" table in the final Power BI report.
-
-**Finally, `dim_date` is built directly in the Warehouse** using `GENERATE_SERIES`, spanning a full 731-day range rather than being derived from the source data — completing the warehouse setup before any Lakehouse-side dimensional tables exist:
+The last piece is `analytics.dim_date`. It is generated with `GENERATE_SERIES` and covers every day from 1 January 2023 to 31 December 2024 (731 days), including days with no sales.
 
 ```sql
 CREATE TABLE analytics.dim_date (
-    order_date_key INT         NOT NULL,
+    order_date_key INT         NOT NULL,  -- YYYYMMDD
     full_date      DATE        NOT NULL,
     year           INT         NOT NULL,
     month_number   INT         NOT NULL,
@@ -129,12 +179,12 @@ CREATE TABLE analytics.dim_date (
 INSERT INTO analytics.dim_date
 SELECT
     CAST(FORMAT(dt, 'yyyyMMdd') AS INT) AS order_date_key,
-    dt AS full_date,
-    YEAR(dt) AS year,
-    MONTH(dt) AS month_number,
-    DATENAME(MONTH, dt) AS month_name,
-    DATEPART(QUARTER, dt) AS quarter,
-    DATENAME(WEEKDAY, dt) AS day_of_week,
+    dt                                  AS full_date,
+    YEAR(dt)                            AS year,
+    MONTH(dt)                           AS month_number,
+    DATENAME(MONTH, dt)                 AS month_name,
+    DATEPART(QUARTER, dt)               AS quarter,
+    DATENAME(WEEKDAY, dt)               AS day_of_week,
     CASE WHEN DATEPART(WEEKDAY, dt) IN (1, 7) THEN 1 ELSE 0 END AS is_weekend
 FROM (
     SELECT DATEADD(DAY, CAST(value AS INT), CAST('2023-01-01' AS DATE)) AS dt
@@ -142,51 +192,54 @@ FROM (
 ) AS dates;
 ```
 
-This ensures every calendar date has a row — including dates with zero sales — which matters for accurate time-intelligence in Power BI (e.g. correctly showing a $0 revenue day rather than a missing one). Building `dim_date` in the Warehouse first, ahead of the Lakehouse dimensional tables, means the date dimension is ready to receive fact-table joins as soon as `fact_sales` is promoted later.
+### 3. Star schema in the Lakehouse
 
----
+`nb_build_tables` reads `silver_sales` (1,268 rows) and writes four Delta tables. Surrogate keys come from `monotonically_increasing_id()`.
 
-### Step 2 — Gold Layer: Building the Star Schema in the Lakehouse (PySpark)
-
-With the Warehouse structure already in place, `nb_build_tables.ipynb` reads the cleaned `silver_sales` Delta table (1,268 rows) and builds four Gold-layer tables in the Lakehouse using surrogate keys generated via `monotonically_increasing_id()`.
-
-**Dimension tables** — each built by extracting distinct values and assigning a surrogate key:
+In the raw file, 34 of the 40 customer names appear in more than one region. For that reason `dim_customer` is built from distinct name and region pairs, which gives 93 rows. `dim_product` has 3 rows and `dim_region` has 4.
 
 ```python
-# dim_customer — 93 unique customers
 dim_customer = df.select('customer_name', 'region') \
     .distinct() \
-    .withColumn('customer_key', monotonically_increasing_id() + 1) \
-    .select('customer_key', 'customer_name', 'region')
+    .withColumn('customer_key', monotonically_increasing_id() + 1)
 
+dim_customer = dim_customer.select('customer_key', 'customer_name', 'region')
 dim_customer.write.format('delta').mode('overwrite').saveAsTable('dim_customer')
 ```
 
-The same pattern is repeated for `dim_product` (3 categories: Electronics, Furniture, Office Supplies) and `dim_region` (4 regions: North, South, East, West).
-
-**Fact table** — built by joining `silver_sales` back to each dimension to resolve surrogate keys, plus a generated date key that aligns with the `order_date_key` format already established in the Warehouse's `dim_date`:
+`fact_sales` joins `silver_sales` back to each dimension to pick up the keys. The date key uses the same `YYYYMMDD` format as `dim_date`.
 
 ```python
 fact = df_silver \
-    .join(df_customer, ['customer_name', 'region'], 'left') \
-    .join(df_product, 'product_category', 'left') \
-    .join(df_region, 'region', 'left') \
-    .withColumn('order_date_key',
-        date_format(to_date(col('order_date'), 'yyyy-MM-dd'), 'yyyyMMdd').cast('int'))
+    .join(df_customer,
+        (df_silver.customer_name == df_customer.customer_name) &
+        (df_silver.region == df_customer.region),
+        'left') \
+    .join(df_product,
+        df_silver.product_category == df_product.product_category,
+        'left') \
+    .join(df_region,
+        df_silver.region == df_region.region,
+        'left')
+
+fact = fact.withColumn(
+    'order_date_key',
+    date_format(to_date(col('order_date'), 'yyyy-MM-dd'), 'yyyyMMdd').cast('int')
+)
 
 fact_sales = fact.select(
-    'order_id', 'order_date_key', 'customer_key', 'product_key',
-    'region_key', 'revenue', 'quantity', 'revenue_usd'
+    col('order_id'), col('order_date_key'), col('customer_key'),
+    col('product_key'), col('region_key'),
+    col('revenue'), col('quantity'), col('revenue_usd')
 )
+fact_sales.write.format('delta').mode('overwrite').saveAsTable('fact_sales')
 ```
 
-Result: `fact_sales` with 1,268 rows, each linking to its customer, product, region, and date via integer surrogate keys — a proper star schema rather than a flattened table.
+`fact_sales` has 1,268 rows, each with integer keys for customer, product, region and date.
 
----
+### 4. Promotion into the Warehouse
 
-### Step 3 — Promoting the Gold-Layer Star Schema into the Warehouse
-
-With the Warehouse structure fully set up (Step 1) and the star schema built in the Lakehouse (Step 2), the final step promotes `dim_customer`, `dim_product`, `dim_region`, and `fact_sales` into the Warehouse's `analytics` schema, where `dim_date` is already waiting:
+Four `CREATE TABLE AS SELECT` statements copy the dimension and fact tables from the Lakehouse into the `analytics` schema, next to `dim_date`.
 
 ```sql
 CREATE TABLE analytics.dim_customer AS SELECT * FROM lh_sales.dbo.dim_customer;
@@ -195,132 +248,59 @@ CREATE TABLE analytics.dim_region   AS SELECT * FROM lh_sales.dbo.dim_region;
 CREATE TABLE analytics.fact_sales   AS SELECT * FROM lh_sales.dbo.fact_sales;
 ```
 
-This completes the full analytics schema — `dim_date`, `dim_customer`, `dim_product`, `dim_region`, and `fact_sales` all sitting together in the Warehouse, ready to power the Power BI semantic model.
+![Warehouse tables in wh_sales](screenshots/04_warehouse_tables.png)
 
----
+### 5. Semantic model and report
 
-## Repository Structure
+`Sales_Semantic` is built on the `analytics` tables, and `Sales report` reads from it.
 
-```
-Sales-Analytics-Microsoft-Fabric-Pipeline/
-├── notebooks/
-│   ├── nb_build_gold_layer.ipynb
-│   ├── nb_build_tables.ipynb  
-│   ├── nb_load_to_delta.ipynb
-│   └── nb_transform_bronze_to_silver.ipynb
-├── sql/
-│   └── warehouse_setup.sql
-├── screenshots/
-│   ├── 01_workspace_overview.png
-│   ├── 02_pipeline_flow.png
-│   ├── 03_lakehouse_tables.png
-│   ├── 04_warehouse_tables.png
-│   └── 05_powerbi_report.png
-├── Sales_report.pbix
-├── sales_data.csv
-└── README.md
-```
+## Report
 
----
+The report has one page, with slicers for date, month, quarter and year.
 
-## Fabric Workspace Structure
+- Six KPI cards: Total Revenue (INR), Total Revenue (USD), Total Orders, Average Revenue per Order, Total Quantity Sold and Average Quantity per Order
+- A monthly revenue trend with order counts
+- Quantity sold and orders by product category (two donut charts)
+- Revenue by region, orders by region and revenue by product category
+- A Top 10 customers table with revenue and order counts
 
-| Item | Type | Purpose |
-|---|---|---|
-| `lh_sales` | Lakehouse | Stores Bronze, Silver, and Gold layer Delta tables |
-| `lh_reporting` | Lakehouse | Supporting reporting layer |
-| `nb_load_to_delta` | Notebook | Ingests raw CSV into Bronze Delta format |
-| `nb_transform_bronze_to_silver` | Notebook | Cleans and standardizes Bronze data into Silver |
-| `nb_build_gold_layer` | Notebook | Builds dimensional (star schema) Gold tables from Silver |
-| `nb_build_tables` | Notebook | Supporting table creation logic |
-| `pl_ingest_sales` | Data Pipeline | Orchestrates the full Bronze → Silver → Gold → Warehouse flow |
-| `Sales_Dataflow` | Dataflow Gen2 | Additional data preparation/transformation |
-| `wh_sales` | Warehouse | Final star-schema warehouse — `fact_sales`, `dim_customer`, `dim_product`, `dim_region`, `dim_date` |
-| `Sales_Semantic` | Semantic Model | Powers the Power BI report from the warehouse |
-| `Sales report` | Power BI Report | Final interactive business-facing dashboard |
+## Findings
 
----
+1. The report shows ₹13.6M in revenue ($144.4K in USD) from 1,268 order rows and 10,043 units.
+2. Electronics brings in ₹9.0M, about two thirds of revenue. Furniture adds ₹3.8M and Office Supplies ₹0.8M, about 6%.
+3. Office Supplies has the most orders (36.0%, against 32.3% for Electronics and 31.6% for Furniture) and about 70% of units sold (7.03K of 10,043), but its revenue is the smallest.
+4. North and West each bring in ₹3.6M, East ₹3.5M and South ₹2.9M. East and South both have 315 orders, so South's orders are worth less on average.
+5. The top 10 customers by name account for about ₹4.7M, roughly a third of revenue. Vivek Chopra is first with ₹532.8K from 40 orders, and Kiran Nambiar is tenth with ₹405.5K from 32.
+6. Revenue rose from ₹6.1M in 2023 to ₹7.5M in 2024, an increase of about 22%. Across calendar months, September is the lowest at ₹0.9M and October the highest at ₹1.4M.
 
-## Dataset
+## Known limitations
 
-**Source:** `sales_data.csv` — order-level sales transaction data
+- The raw file contains 20 exact duplicate rows, 18 of them Active orders. Those 18 are still in `silver_sales`, so Total Orders (1,268) counts rows while the data has 1,250 distinct order IDs. Without them, revenue would be about ₹13.47M instead of ₹13.64M.
+- `nb_build_tables` and the promotion statements run outside the pipeline, so a full refresh needs them to be run by hand. `CREATE TABLE AS SELECT` fails if the target table already exists, so the `analytics` tables have to be dropped before promoting again.
+- The Top 10 customers table groups by customer name, so a name that appears in several regions counts as one customer there, while `dim_customer` keeps each name and region pair separate.
 
-| Detail | Info |
-|---|---|
-| Rows | 1,525 orders |
-| Columns | OrderID, OrderDate, CustomerName, Region, ProductCategory, Revenue, Quantity, Status |
-| Status values | Active, Cancelled, Returned |
-| Regions | North, South, East, West |
-| Categories | Electronics, Furniture, Office Supplies |
+## How to reproduce
 
-This raw file is the single source ingested at the start of the pipeline — all downstream Bronze, Silver, Gold, and Warehouse tables are derived from it.
+1. Create a Microsoft Fabric workspace. The free trial is enough.
+2. Create a Lakehouse named `lh_sales` and a Warehouse named `wh_sales`.
+3. Upload `sales_data.csv` to `Files/raw` in `lh_sales`.
+4. Import the four notebooks from `notebooks/`, create the pipeline `pl_ingest_sales` with the five activities listed above, and run it. This produces the Bronze, Silver and Gold tables and copies `silver_sales` into the Warehouse.
+5. In `wh_sales`, run `sql/warehouse_setup.sql` down to and including the `dim_date` insert.
+6. Run `notebooks/nb_build_tables.ipynb` against `lh_sales`.
+7. In `wh_sales`, run the four `CREATE TABLE AS SELECT` statements at the end of `sql/warehouse_setup.sql`.
+8. Create the semantic model on the `analytics` tables, then open `Sales_report.pbix` in Power BI Desktop or build a new report on the model.
 
----
+## What I learned
 
-## Key Findings (from the final report)
+- Keeping Bronze, Silver and Gold as separate tables let me check each stage before running the next one.
+- Customer names repeat across regions, so `dim_customer` needed name and region together as its key. Joining facts on name alone would have multiplied fact rows.
+- Separate `staging` and `analytics` schemas keep copied data apart from modeled tables, which makes it clear which tables are safe to report on.
+- Building `dim_date` in the Warehouse before the fact table gave every date in the range a row, including days with no sales, so the date keys in `fact_sales` already had something to point to.
+- The Lakehouse suited the Spark transformations and the Warehouse suited the T-SQL modeling. Moving the finished star schema across took one `CREATE TABLE AS SELECT` per table.
 
-1. **Total revenue of ₹13.6M** across 1,268 orders, with an average revenue per order of ₹10.9K.
-2. **Electronics is the dominant revenue driver** at ₹9.0M — more than double Furniture (₹3.8M) and over 10× Office Supplies (₹0.8M) — despite Office Supplies having the highest order count (36% of orders).
-3. **Revenue is well-balanced across regions**, with North, West, and East each contributing roughly ₹3.5-3.6M, and South slightly behind at ₹2.9M.
-4. **A small number of repeat customers drive disproportionate revenue** — the top 10 customers by revenue each generated ₹400K+ across 27-48 orders, highlighting a clear high-value customer segment worth targeted retention efforts.
-5. **Monthly revenue shows clear volatility**, with a dip around September before recovering into Q4 — worth further investigation into seasonal ordering patterns or a specific business event.
+## Contact
 
----
-
-## Skills Demonstrated
-
-| Category | Skill |
-|---|---|
-| Data ingestion | Pipeline-orchestrated Copy Data activity from raw CSV into Lakehouse |
-| Data engineering | Medallion Architecture (Bronze/Silver/Gold) using PySpark notebooks in Fabric |
-| Data modeling | Star schema design — surrogate key generation via `monotonically_increasing_id()`, fact-to-dimension joins to resolve keys |
-| Pipeline orchestration | Multi-activity Fabric Data Factory pipeline with sequential dependencies |
-| Data warehousing | Fabric Warehouse organized into `staging`, `analytics`, and `reporting` schemas — separating raw, modeled, and report-facing layers |
-| Date dimension engineering | Generated a complete `dim_date` table using T-SQL `GENERATE_SERIES`, ensuring every calendar date exists regardless of sales activity |
-| SQL views & stored procedures | Built a reusable region/month aggregation view and a parameterized `usp_GetTopCustomers` stored procedure to avoid hardcoded reporting queries |
-| Semantic modeling | Power BI semantic model built directly on the warehouse |
-| Data visualization | Combo charts, donut charts, KPI cards, ranked tables, multi-level date filtering (Date/Month/Quarter/Year) |
-| Platform | Microsoft Fabric (unified Lakehouse, Data Factory, Warehouse, and Power BI in one platform) |
-
----
-
-## How to Reproduce This Project
-
-1. Create a Microsoft Fabric workspace (free trial available via Power BI / Fabric)
-2. Create a Lakehouse named `lh_sales`
-3. Upload `sales_data.csv` to the Lakehouse Files section
-4. Run the Bronze and Silver transformation notebooks (ingest raw data, clean and standardize into `silver_sales`)
-5. Create a Warehouse (`wh_sales`) and, via its SQL analytics endpoint, run `sql/warehouse_setup.sql` **up to and including `dim_date`**:
-   - Create the `staging`, `analytics`, and `reporting` schemas
-   - Run the basic data check and ad-hoc regional summary against `staging.silver_sales`
-   - Create the `vw_sales_by_region` view and the `usp_GetTopCustomers` stored procedure
-   - Create and populate `analytics.dim_date` via `GENERATE_SERIES`
-6. Run `notebooks/nb_build_tables.ipynb` to build the Gold-layer star schema (`dim_customer`, `dim_product`, `dim_region`, `fact_sales`) in the Lakehouse
-7. Back in the Warehouse, run the remaining queries in `sql/warehouse_setup.sql` to promote `dim_customer`, `dim_product`, `dim_region`, and `fact_sales` from the Lakehouse into the `analytics` schema
-8. Orchestrate steps 4–7 into a Data Factory pipeline (`pl_ingest_sales`) for repeatable, automated runs
-9. Open `Sales_report.pbix` in Power BI Desktop, or connect a new report to the `Sales_Semantic` model
-
----
-
-## What I Learned
-
-- How to design and implement the Medallion Architecture pattern — separating raw ingestion (Bronze), cleaned data (Silver), and business-ready dimensional models (Gold) into distinct, auditable stages rather than doing all transformation in one step.
-- How to build a proper star schema with fact and dimension tables, rather than a single flattened table — enabling cleaner relationships and more efficient Power BI report performance.
-- Why `dim_customer` needed a composite join key (`customer_name` + `region`) rather than name alone — since customer names weren't guaranteed unique across regions in the source data, joining on name only would have silently produced incorrect fact-to-dimension matches.
-- How to structure a data warehouse into purpose-specific schemas (`staging`, `analytics`, `reporting`) rather than one flat namespace — making it clear which layer is raw, which is modeled, and which is safe for direct BI consumption.
-- Why generating `dim_date` independently (via `GENERATE_SERIES`) in the Warehouse first — before the Lakehouse dimensional tables even existed — guarantees a complete, gap-free calendar ready to receive fact-table joins, rather than deriving it only from dates present in the sales data.
-- How a parameterized stored procedure (`usp_GetTopCustomers`) avoids duplicating near-identical queries for different "Top N" requests, and can be called directly from a Power BI report parameter.
-- How to orchestrate a multi-step pipeline with dependent activities in Fabric's Data Factory, chaining data movement and transformation notebooks into one automated flow.
-- The practical difference between working directly on a Lakehouse (flexible, file-based, Spark-native) versus a Warehouse (structured, T-SQL-native, optimized for BI consumption) — and why a Gold-to-Warehouse handoff makes sense architecturally.
-- How Power BI's semantic model layer decouples the report from the underlying warehouse structure, making the report easier to maintain as the data model evolves.
-
----
-
-## About
-
-Built by **Atharv Dhole** as part of a data analyst portfolio project.
+Atharv Dhole
 
 - LinkedIn: https://www.linkedin.com/in/atharv-dhole/
 - Email: atharvdhole22@gmail.com
-
----
